@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 76ch;
+  margin: 2ch;
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    Menlo,
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+p, dl {
+  margin: 1em 0;
+}
+
+a[href] {
+  text-decoration: none;
+  color: blue;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}

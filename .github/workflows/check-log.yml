@@ -1,0 +1,26 @@
+name: Check Document Log Modification
+on:
+  schedule:
+  # Run everyday at 6:00 EST (11:00 UTC)
+  - cron: '0 11 * * *'
+jobs:
+  check:
+    name: Check Document Log Modification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: curl -O http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm
+    - run: |
+        md5sum -c data/hash.md5
+        if [ $? -eq 0 ]
+        then
+          exit 0
+        fi
+        curl --request POST \
+        --url https://api.github.com/repos/${{ github.repository }}/issues \
+        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+        --header 'content-type: application/json' \
+        --data '{
+          "title": "Document log changed",
+          "body": "It looks like the document log has changed!\n\nSee: http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm"
+          }'
