@@ -9,21 +9,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: curl -O http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm
     - run: |
+        # Don't run anything if an issue is already open.
+        issue_count=$( \
+          curl 'https://api.github.com/repos/${{ github.repository }}/issues?labels=document-log-update' \
+          | jq 'length' \
+        )
+        if [[ $issue_count == '0' ]]
+        then
+          exit 0
+        fi
+
+        # Download and compare the document log file.
+        curl -O http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm
         set +e
         md5sum -c data/hash.md5
         retval=$?
         set -e
-        if [ $retval -eq 0 ]
+        if [[ $retval == 0 ]]
         then
           exit 0
         fi
+
+        # Add a new issue if the document log file has changed.
         curl --request POST \
         --url https://api.github.com/repos/${{ github.repository }}/issues \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
         --header 'content-type: application/json' \
         --data '{
           "title": "Document log changed",
-          "body": "It looks like the document log has changed!\n\nSee: http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm"
+          "body": "It looks like the document log has changed!\n\nSee: http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm",
+          "labels": ["document-log-update"]
           }'
