@@ -1,3 +1,8 @@
+- id: N2471
+  title: Stackable, thread local, signal guards
+  author: Douglas
+  date: 2020-02-02
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2471.pdf
 - id: N2470
   title: Preprocessor embed - Binary Resource Inclusion
   author: Meneide
