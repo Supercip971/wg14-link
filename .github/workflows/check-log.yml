@@ -11,8 +11,11 @@ jobs:
     - uses: actions/checkout@v2
     - run: curl -O http://www.open-std.org/jtc1/sc22/wg14/www/wg14_document_log.htm
     - run: |
+        set +e
         md5sum -c data/hash.md5
-        if [ $? -eq 0 ]
+        retval=$?
+        set -e
+        if [ $retval -eq 0 ]
         then
           exit 0
         fi
