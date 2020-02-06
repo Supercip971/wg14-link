@@ -26,36 +26,21 @@ const redirects = {};
 
 // Add all of the document files.
 for (let { id, url, mirror, status } of docs) {
-  const redirect = {};
+  if (!(url || mirror) && status !== "unassigned") {
+    assert(!status);
+    status = "missing";
+  }
 
   id = canonicalDocumentId(id);
-
-  // Default status when not provided.
-  if (status === undefined) {
-    status = "found";
-  }
-
-  // Figure out the URL and action based on the document status.
-  if (status === "missing" || status === "unassigned") {
-    // Document file is missing or is unassigned.
-    redirect.status = status;
-  } else {
-    // Document file is found.
-    assert(status === "found" || status === "protected");
-    redirect.url = url;
-    redirect.mirror = mirror;
-  }
-
-  assert(redirects[id] === undefined, `duplicate ID found: ${id}`);
-  redirects[id] = redirect;
+  redirects[id] = { url, mirror, status };
 }
 
 // Add the aliases.
 for (let [from, to] of Object.entries(alias)) {
   from = from.toLowerCase();
   to = canonicalDocumentId(to);
-  const redirect = redirects[to];
-  redirects[from] = { url: redirect.url, mirror: redirect.mirror };
+  const { url, mirror, status } = redirects[to];
+  redirects[from] = { url, mirror, status };
 }
 
 // Write the redirect file.

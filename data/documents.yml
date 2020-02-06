@@ -7054,7 +7054,6 @@
   date: 2004-05-03
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n165.htm
 - id: N1064
-  status: protected
   title: Minutes for Sydney meeting.
   author: Hedquist
   date: 2004-03-31
@@ -7570,7 +7569,6 @@
   date: 2001-11-01
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n962.pdf
 - id: N961
-  status: missing
   title: Minutes, Copenhagen April 2001
   author: Meyers
   date: 2001-10-18
@@ -7630,7 +7628,6 @@
   date: 2001-08-13
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n950.pdf
 - id: N949
-  status: missing
   title: 9899:1999 + TC1
   author: Jones
   date: 2001-07-31
@@ -7856,13 +7853,11 @@
   date: 2000-01-15
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n905.htm
 - id: N904
-  status: protected
   title: from Kona Oct. 1999
   author: Peterson
   date: 2000-01-15
   url: http://www.open-std.org/jtc1/sc22/wg14/prot/n904.htm
 - id: N903
-  status: missing
   title: Meeting Information (April 2000)
   author: Mita
   date: 1999-12-01
@@ -7987,17 +7982,14 @@
   date: 1999-05-04
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n879.htm
 - id: N878
-  status: missing
   title: Final Draft International Standard.
   author: Jones
   date: 1999-04-09
 - id: N877
-  status: missing
   title: Committee Working Draft (post FCD)
   author: Jones
   date: 1999-03-18
 - id: N876
-  status: missing
   title: US Disposition of Comments Report for FCD 9899
   author: Jaeschke
   date: 1999-03
@@ -8032,7 +8024,6 @@
   date: 1999-01-18
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n870.txt
 - id: N869
-  status: missing
   title: Committee Draft
   author: Jones
   date: 1999-01-18
@@ -8083,7 +8074,6 @@
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n860.htm
 - id: N859
   title: Preliminary Minutes for October 1998, Santa Cruz
-  status: protected
   author: Tydeman
   date: 1998-10-14
   url: http://www.open-std.org/jtc1/sc22/wg14/prot/n859.htm
@@ -8178,7 +8168,6 @@
   date: 1998-08-03
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n841.htm
 - id: N840
-  status: missing
   title: Munutes for Copenhagen 1998.
   author: Keaton
   date: 1998-07-27
@@ -8238,7 +8227,6 @@
   date: 1998-05-26
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n829.htm
 - id: N828
-  status: protected
   title: Committee Draft Version xx
   author: Jones
   date: 1998-05-22
@@ -8319,7 +8307,6 @@
   date: 1998-02-04
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n813.ps
 - id: N812
-  status: missing
   title: Minutes for Frico Colorado 1998
   author: Seebach
   date: 1998-02-06
@@ -8409,7 +8396,6 @@
   date: 1997-11-19
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n795.htm
 - id: N794
-  status: missing
   title: Working Draft for CD Ballot
   author: Farance
   date: 1997-11-18
@@ -9020,7 +9006,6 @@
   date: 1997-03-04
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n675.htm
 - id: N674
-  status: missing
   title: C9X Draft 9 - Committee Draft Registration.
   author: Farance
   date: 1997-02-28
@@ -9075,7 +9060,6 @@
   date: 1997-02-14
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n664.ps
 - id: N663
-  status: missing
   title: Clause 2 (C++ CD-2)
   author: Plum
   date: 1997-02-12
@@ -9090,7 +9074,6 @@
   date: 1997-02-10
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n661.htm
 - id: N660
-  status: missing
   title: June 1997 Meeting Information
   author: Martin
   date: 1997-02-10
@@ -9255,7 +9238,6 @@
   date: 1996-11-07
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n628.htm
 - id: N627
-  status: missing
   title: Approval of ISO/IEC JTC1 to place TC1/2 on WWW
   author: Rinehuls
   date: 1996-10-07
@@ -9271,7 +9253,6 @@
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n625.htm
 # FIXME: Unknown author
 - id: N624
-  status: missing
   title: ISO/IEC 9899:1990/Cor. 2:1996, Technical Corrigendum 2
   author: unknown
   date: 1996-10-15
@@ -9281,13 +9262,11 @@
   date: 1996-10-22
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n623.ps
 - id: N622
-  status: missing
   title: Make gets unusable
   author: Wirzenius
   date: 1996-09-26
 # FIXME: Unknown author
 - id: N621
-  status: missing
   title:  ISO/IEC 9899:1990/Cor. 1:1994, Technical Corrigendum 1
   author: unknown
   date: 1996-10-15
@@ -9409,17 +9388,14 @@
   date: 1996-09-06
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n598.htm
 - id: N597
-  status: missing
   title: Toronto meeting information
   author: Mooney
   date: 1996-09-12
 - id: N596
-  status: missing
   title: C9X Complex Arithmetic
   author: Thomas
   date: 1996-09-12
 - id: N595
-  status: missing
   title: C9X Floating-Point
   author: Thomas
   date: 1996-09-12
@@ -9439,490 +9415,396 @@
   date: 1996-08-07
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n592.htm
 - id: N591
-  status: missing
   title: WG20, PDTR ISO/IEC TR 10176 (SC22/2029) Toronto 10-96
   author: WG20
   date: 1996-06-29
 - id: N590
-  status: missing
   title: Translation Limits
   author: Benito
   date: 1996-06-29
 - id: N589
-  status: missing
   title: Extended Characters in C9X
   author: Feather
   date: 1996-06-27
 - id: N588
-  status: missing
   title: Draft 6 Edit Issues List
   author: Benito
   date: 1996-06-27
 - id: N587
-  status: missing
   title: Revised bool Proposal
   author:
   - Plum
   - Martin
   date: 1996-06-27
 - id: N586
-  status: missing
   title: POSIX Alignment
   author: Simonsen
   date: 1996-06-26
 - id: N585
-  status: missing
   title: Procedure for Handling C9X Revisions
   author: Simonsen
   date: 1996-06-24
 - id: N584
-  status: missing
   title: Minutes of 24-28 Jun 96 Meeting in Amsterdam
   author: Martin
   date: 1996-06-28
 - id: N583
-  status: missing
   title: UK014a size_t and ptrdiff_t, Version 2
   author: Feather
   date: 1996-06-24
 - id: N582
-  status: missing
   title: UK013a size_t and ptrdiff_t, Version 1
   author: Feather
   date: 1996-06-24
 - id: N581
-  status: missing
   title: Alternative Syntax for N580
   author: Feather
   date: 1996-06-24
 - id: N580
-  status: missing
   title: UK010b Varargs for Function-like Macros
   author: Feather
   date: 1996-06-24
 - id: N579
-  status: missing
   title: UK007b Phases of Translation
   author: Feather
   date: 1996-06-24
 - id: N578
-  status: missing
   title: UK006b Restructuring of 6.1 and 6.2
   author: Feather
   date: 1996-06-24
 - id: N577
-  status: missing
   title: CEN/TC304 Report
   author: Simonsen
   date: 1996-06-24
 - id: N576
-  status: missing
   title: WG20 Liaison Report
   author: Simonsen
   date: 1996-06-24
 - id: N575
-  status: missing
   title: WG15 Liaison Report
   author: Simonsen
   date: 1996-06-24
 - id: N574
-  status: missing
   title: Extended Identifiers, etc.
   author: Plum
   date: 1996-06-24
 - id: N573
-  status: missing
   title: Boolean Support
   author: Plum
   date: 1996-06-24
 - id: N572
-  status: missing
   title: long long Revised
   author: Degener
   date: 1996-06-24
 - id: N571
-  status: missing
   title: Editorial Corrections to <inttypes.h>, etc.
   author: Walls
   date: 1996-06-12
 - id: N570
-  status: missing
   title: 'RP: Allow Empty Arguments in Macro Replacement'
   author: Tydeman
   date: 1996-06-14
 - id: N569
-  status: missing
   title: Outstanding Editorial Corrections to C9X
   author: Walls
   date: 1996-06-12
 - id: N568
-  status: missing
   title: Stringizing Empty pp-token Sequences
   author:
   - Tydeman
   - Gwyn
   date: 1996-06-01
 - id: N567
-  status: missing
   title: Agenda for 24-28 Jun 96 Meeting in Amsterdam
   author: Jaeschke
   date: 1996-05-18
 - id: N566
-  status: missing
   title: 'RP: Two Restricted Pointer Considerations'
   author:
   - Homer
   - MacDonald
   date: 1996-05-16
 - id: N565
-  status: missing
   title: 'RP: New Form of Pragma, Version 2'
   author: Homer
   date: 1996-05-15
 - id: N564
-  status: missing
   title: 'RP: Add Upper and Lower Operators'
   author: Miller
   date: 1996-04-16
 - id: N563
-  status: missing
   title: 'RP: Variant Conversions for *printf'
   author: Seebach
   date: 1996-04-08
 - id: N562
-  status: missing
   title: 'RP: Add Inline Capability to C'
   author: Leedom
   date: 1996-03-29
 - id: N561
-  status: missing
   title: Draft Minutes of Feb. 1996 Meeting
   author: Myers
   date: 1996-05-17
 - id: N560
-  status: missing
   title: Assorted Preprocessor Extensions, Rev. 2
   author: Farance
   date: 1996-05-17
 - id: N559
-  status: missing
   title: C9X Draft 6
   author: Farance
   date: 1996-05-17
 - id: N558
-  status: missing
   title: Basic I/O Hardware Addressing
   author: Kristoffersen
   date: 1996-05-15
 - id: N557
-  status: missing
   title: Complex Arithmetic Proposal
   author: Thomas
   date: 1996-05-11
 - id: N556
-  status: missing
   title: Process of Adopting C9X Changes
   author: Walls
   date: 1996-04-20
 - id: N555
-  status: missing
   title: Removal of Fast Types from <inttypes.h>
   author: Walls
   date: 1996-04-19
 - id: N554
-  status: missing
   title: X3J11 Coordinating Liason Statement on LIA
   author: Jaeschke
   date: 1996-04-19
 - id: N553
-  status: missing
   title: Guidelines for Instructions to the Editors
   author:
   - Farance
   - Benito
   date: 1996-04-16
 - id: N552
-  status: missing
   title: X3J11 Comments on IEEE 1003.1j/D5
   author: Farance
   date: 1996-03-26
 - id: N551
-  status: missing
   title: Changes to <inttypes.h>
   author: Kwan
   date: 1996-04-15
 - id: N550
-  status: missing
   title: Agenda for 24-28 Jun 96 Meeting in Amsterdam
   author: Plauger
   date: 1996-02-29
 - id: N549
-  status: missing
   title: Information on 24-28 Jun 96 Meeting in Amsterdam
   author: Keizer
   date: 1996-02-07
 - id: N548
-  status: missing
   title: Empty Macro Arguments
   author: Tydeman
   date: 1996-02-26
 - id: N547
-  status: missing
   title: 'C9X Floating-Point: Last Issues'
   author: Thomas
   date: 1996-02-25
 - id: N546
-  status: missing
   title: C9X Floating-Point Proposal
   author: Thomas
   date: 1996-02-25
 - id: N545
-  status: missing
   title: Minutes of 05-09 Feb 96 Meeting in Irvine CA
   author: Meyers
   date: 1996-02-09
 - id: N544
-  status: missing
   title: 'Defect Reports #142-#178'
   author: Plauger
   date: 1996-02-07
 - id: N543
-  status: missing
   title: WG20 Liaison
   author: Simonsen
   date: 1996-02-06
 - id: N542
-  status: missing
   title: Prototype Web Page
   author: Simonsen
   date: 1996-02-06
 - id: N541
-  status: missing
   title: Extended Identifiers and Literals (WG21/0808R1, X3J16/950208R1)
   author: Plum
   date: 1996-02-06
 - id: N540
-  status: missing
   title: Translation Limits
   author: Benito
   date: 1996-02-05
 - id: N539
-  status: missing
   title: Current Lack of Standardization
   author: Kristoffersen
   date: 1996-02-05
 - id: N538
-  status: missing
   title: POSIX Alignment
   author: Simonsen
   date: 1996-02-05
 - id: N537
-  status: missing
   title: X3 Subgroup Annual Report
   author: Jaeschke
   date: 1996-01-30
 - id: N536
-  status: missing
   title: 'Defect Reports #142-#153'
   author: Plauger
   date: 1995-12-22
 - id: N535
-  status: missing
   title: X3J11 comments on IEEE P1101.10
   author: Farance
   date: 1995-12-22
 - id: N534
-  status: missing
   title: X3J11 comments on IEEE P1003.1g/D6.3
   author: Farance
   date: 1995-12-22
 - id: N533
-  status: missing
   title: Extended String Literals
   author: Farance
   date: 1995-12-22
 - id: N532
-  status: missing
   title: Extended Identifiers
   author: Farance
   date: 1995-12-22
 - id: N531
-  status: missing
   title: Assorted Preprocessor Extensions
   author: Farance
   date: 1995-12-22
 - id: N530
-  status: missing
   title: Issues on C Binding for LIPC
   author: Farance
   date: 1995-12-22
 - id: N529
-  status: missing
   title: Issues on C Binding for LID
   author: Farance
   date: 1995-12-22
 - id: N528
-  status: missing
   title: C Binding for LIA-1
   author: Farance
   date: 1995-12-22
 - id: N527
-  status: missing
   title: DR on Variable Length Structures
   author: Farance
   date: 1995-12-22
 - id: N526
-  status: missing
   title: Extensions to <inttypes.h>
   author:
   - Farance
   - Rugolsky
   date: 1995-12-22
 - id: N525
-  status: missing
   title: Issues on Overloading Features
   author:
   - Farance
   - Rugolsky
   date: 1995-12-22
 - id: N524
-  status: missing
   title: C9X Draft 5
   author: Farance
   date: 1995-12-22
 - id: N523
-  status: missing
   title: Detailed Agenda for Feb '96 Meeting in Irvine
   author: Jaeschke
   date: 1995-12-18
 - id: N522
-  status: missing
   title: Tag Compatibility
   author: MacDonald
   date: 1995-12-21
 - id: N521
-  status: missing
   title: Restricted Pointer Considerations
   author:
   - MacDonald
   - Homer
   date: 1995-12-21
 - id: N520
-  status: missing
   title: Complex Type Simplified
   author:
   - MacDonald
   - Knaak
   date: 1995-12-21
 - id: N519
-  status: missing
   title: Arrays of Variable Length
   author: MacDonald
   date: 1995-12-21
 - id: N518
-  status: missing
   title: Complex Arithmetic for IEEE Implementations
   author: Thomas
   date: 1995-12-11
 - id: N517
-  status: missing
   title: Complex Arithmetic <complex.h>
   author: Thomas
   date: 1995-12-11
 - id: N516
-  status: missing
   title: Complex Arithmetic C9X Edits
   author: Thomas
   date: 1995-12-11
 - id: N515
-  status: missing
   title: C9X Complex Arithmetic Proposal Overview
   author: Thomas
   date: 1995-12-11
 - id: N514
-  status: missing
   title: 'Annex: IEEE Standard Floating-Point Arithmetic'
   author: Thomas
   date: 1995-12-11
 - id: N513
-  status: missing
   title: Floating-Point Environment <fenv.h>
   author: Thomas
   date: 1995-12-11
 - id: N512
-  status: missing
   title: Mathematics (Enhanced) <math.h>
   author: Thomas
   date: 1995-12-11
 - id: N511
-  status: missing
   title: Floating-Point Arithmetic C9X Edits
   author: Thomas
   date: 1995-12-11
 - id: N510
-  status: missing
   title: C9X Floating-Point Proposal Overview
   author: Thomas
   date: 1995-12-11
 - id: N509
-  status: missing
   title: I/O Support on Embedded Machines
   author:
   - Simonsen
   - Kristoffersen
   date: 1995-12-11
 - id: N508
-  status: missing
   title: WG20 Paper on Character Types
   author: Simonsen
   date: 1995-12-11
 - id: N507
-  status: missing
   title: Posix Alignment
   author: Simonsen
   date: 1995-12-11
 - id: N506
-  status: missing
   title: 'RP: Assorted Changes for Variable Argument'
   author: Feather
   date: 1995-12-06
 - id: N505
-  status: missing
   title: 'RP: Make Qualifiers Idempotent'
   author: Feather
   date: 1995-12-06
 - id: N504
-  status: missing
   title: 'RP: Minor Alterations to Type Descriptions'
   author: Feather
   date: 1995-12-06
 - id: N503
-  status: missing
   title: 'RP: Mix Declarations and Code'
   author: Feather
   date: 1995-12-06
 - id: N502
-  status: missing
   title: Response to X3J11 Comments on ISO/IEC DIS
   author: Farance
   date: 1995-11-27
 - id: N501
-  status: missing
   title: X3J11 Response to IEEE P1156.2/D4.0
   author: Farance
   date: 1995-11-27
 - id: N500
-  status: missing
   title: Why restrict Cannot be a Type Qualifier
   author: Degener
   date: 1995-12-12
 - id: N499
-  status: missing
   title: long long
   author: Hartinger
   date: 1995-12-12
 - id: N498
-  status: missing
   title: Unnamed Structure/Union Members
   author: Thompson
   date: 1995-11-29
@@ -9955,22 +9837,18 @@
   issued: 1995-12-08
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n494.pdf
 - id: N493
-  status: missing
   title: X3J11 response to ISO 9945-1 AM1 DTC1
   author: Farance
   date: 1995-11-17
 - id: N492
-  status: missing
   title: Preliminary Agenda for 05-09 Feb 96 Meeting
   author: Plauger
   date: 1995-11-16
 - id: N491
-  status: missing
   title: Rationale for C Standard
   author: X3J11
   date: 1995-11-16
 - id: N490
-  status: missing
   title: >
     Information technology --
     Programming languages, their environments and system software interfaces --
@@ -9979,13 +9857,11 @@
   number: ISO/IEC DIS 11404
   date: 1995-11-16
 - id: N489
-  status: missing
   title: Information technology -- Language-Independent Procedure Calling (LIPC)
   author: ISO/IEC
   number: ISO/IEC DIS 13886
   date: 1995-11-16
 - id: N488
-  status: missing
   title: >
     Information technology -- Language independent arithmetic --
     Part 2: Elementary numerical functions
@@ -9994,7 +9870,6 @@
   issued: 1994
   date: 1995-11-16
 - id: N487
-  status: missing
   title: >
     Information technology -- Language independent arithmetic --
     Part 1: Integer and floating point arithmetic
@@ -10003,206 +9878,167 @@
   issued: 1994
   date: 1995-11-16
 - id: N486
-  status: missing
   title: Language Independent Standards
   author: Schaffert
   date: 1995-10-16
 - id: N485
-  status: missing
   title: Adding Bool Type
   author: Plum
   date: 1995-10-16
 - id: N484
-  status: missing
   title: Issues Affecting a long long Data Type
   author: Keaton
   date: 1995-10-16
 - id: N483
-  status: missing
   # Some alpha (pre first edition) version of the spec
   title: Java Language Specification
   author: Sun
   date: 1995-10-16
 - id: N482
-  status: missing
   title: Information on 05-09 Feb 96 Meeting in Irvine
   author: Ziebell
   date: 1995-10-16
 - id: N481
-  status: missing
   title: Adding // Comments
   author: Gwyn
   date: 1995-10-16
 - id: N480
-  status: missing
   title: Function Literals
   author: Long
   date: 1995-10-16
 - id: N479
-  status: missing
   title: wchar_t as a Keyword
   author: Plum
   date: 1995-10-16
 - id: N478
-  status: missing
   title: Machine Characteristics Macros
   author: Tribble
   date: 1995-10-16
 - id: N477
-  status: missing
   title: Minutes of Oct 95 Meeting in Nashua NH
   author: Meyers
   date: 1995-11-16
 - id: N476
-  status: missing
   title: Agenda for Oct 95 Meeting in Nashua NH
   author: Jaeschke
   date: 1995-10-09
 - id: N475
-  status: missing
   title: Compound Literals
   author:
   - Prosser
   - Keaton
   date: 1995-08-25
 - id: N474
-  status: missing
   title: Initializer Repetition Counts
   author: Keaton
   date: 1995-08-25
 - id: N473
-  status: missing
   title: Rationale for Designated Initializers
   author: Keaton
   date: 1995-08-25
 - id: N472
-  status: missing
   title: Designated Initializers
   author:
   - Prosser
   - Keaton
   date: 1995-08-25
 - id: N471
-  status: missing
   title: Complex Arithmetic Header <complex.h>
   author: Thomas
   date: 1995-08-25
 - id: N470
-  status: missing
   title: Complex Arithmetic C9X Edits
   author: Thomas
   date: 1995-08-25
 - id: N469
-  status: missing
   title: 'Annex X: IEEE Standard Floating-Point Arithmetic'
   author: Thomas
   date: 1995-08-25
 - id: N468
-  status: missing
   title: Floating-Point Header <fenv.h>
   author: Thomas
   date: 1995-08-25
 - id: N467
-  status: missing
   title: Floating-Point Header <fp.h>
   author: Thomas
   date: 1995-08-25
 - id: N466
-  status: missing
   title: Floating-Point Arithmetic C9X edits
   author: Thomas
   date: 1995-08-25
 - id: N465
-  status: missing
   title: Data Representation Extensions (REP) Rev. 1
   author: Farance
   date: 1995-08-25
 - id: N464
-  status: missing
   title: Ordering and Alignment Extensions Rev. 1
   author:
   - Farance
   - Rugolsky
   date: 1995-08-25
 - id: N463
-  status: missing
   title: Impact of adding WG11's LIA, LID, LIPC
   author: Farance
   date: 1995-08-25
 - id: N462
-  status: missing
   title: X3J11 Review of ISO DIS 13886
   author: Farance
   date: 1995-08-25
 - id: N461
-  status: missing
   title: C Binding of ISO 10967-1 (LIA-1)
   author: Farance
   date: 1995-08-25
 - id: N460
-  status: missing
   title: Experience with JTC1 Electronic Document Format
   author: Farance
   date: 1995-08-25
 - id: N459
-  status: missing
   title: Specification-Based Extended Integer Range Rev. 3
   author: Farance
   date: 1995-08-25
 - id: N458
-  status: missing
   title: Extended Characters Analysis
   author:
   - Farance
   - Rugolsky
   date: 1995-08-25
 - id: N457
-  status: missing
   title: C9X Draft 4
   author: Farance
   date: 1995-08-24
 - id: N456
-  status: missing
   title: ANSI IISP Publication Needs
   author: Farance
   date: 1995-08-04
 - id: N455
-  status: missing
   title: Defect Report NN1
   author: Keizer
   date: 1995-08-23
 - id: N454
-  status: missing
   title: WG14 and the Internet
   author: Keizer
   date: 1995-08-23
 - id: N453
-  status: missing
   title: Tag Compatability
   author: MacDonald
   date: 1995-08-23
 - id: N452
-  status: missing
   title: Signed Integer Division
   author: MacDonald
   date: 1995-08-23
 - id: N451
-  status: missing
   title: Arrays of Variable Length
   author: MacDonald
   date: 1995-08-23
 - id: N450
-  status: missing
   title: Complex Type Simplified
   author: MacDonald
   date: 1995-08-23
 - id: N449
-  status: missing
   title: New Form of Pragma
   author: Homer
   date: 1995-08-23
 - id: N448
-  status: missing
   title: Restricted Pointers
   author: Homer
   date: 1995-08-23
@@ -10230,82 +10066,66 @@
   date: 1995-08-04
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n444.htm
 - id: N443
-  status: missing
   title: Review of C++ Draft Presented for CD Balloting
   author: Plauger
   date: 1995-07-09
 - id: N442
-  status: missing
   title: Appointment of Farance as Project Editor
   author: Rinehuls
   date: 1995-06-20
 - id: N441
-  status: missing
   title: 'Defect Report Log (DR #142-152)'
   author: Plauger
   date: 1995-07-09
 - id: N440
-  status: missing
   title: 'TC2 (DR #060-141) for Balloting (SC22/1852)'
   author: Plauger
   date: 1995-07-09
 - id: N439
-  status: missing
   title: 'RR2 (DR #060-141) for Balloting (SC22/1851)'
   author: Plauger
   date: 1995-07-09
 - id: N438
-  status: missing
   title: Summary of Edits for RR2/TC2
   author: Plauger
   date: 1995-07-09
 - id: N437
-  status: missing
   title: Information on 16-20 Oct 95 Meeting in Nashua
   author: Meyers
   date: 1995-07-09
 - id: N436
-  status: missing
   title: Preliminary Agenda for 16-20 Oct 95 Meeting
   author: Plauger
   date: 1995-07-09
 - id: N435
-  status: missing
   title: X3J11 Review of ISO 9593-4/PDAM2
   author: Farance
   date: 1995-07-07
 - id: N434
-  status: missing
   title: Minutes of 12-16 Jun 95 Wg14/X3J11 Meeting
   author: Meyers
   date: 1995-06-12
 - id: N433
-  status: missing
   title: Edits for Working Draft
   author: Walls
   date: 1995-06-12
 - id: N432
-  status: missing
   title: DIN Defect Reports 1-3
   author: Degener
   date: 1995-06-12
 - id: N431
-  status: missing
   title: Internationalization in C and POSIX Standards
   author: Simonsen
   date: 1995-06-12
 - id: N430
-  status: missing
   title: Replacement for sprintf
   author: Bostic
   date: 1995-06-12
 - id: N429
-  status: missing
   title: Replacement for strtok
   author: Bostic
   date: 1995-06-12
 - id: N428
-  status: missing
   title: Problems with JTC1 Electronic Document Format
   author: Farance
   date: 1995-06-12
@@ -10316,12 +10136,10 @@
   issued: 1995-05-29
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n427.htm
 - id: N426
-  status: missing
   title: Complex.h
   author: Thomas
   date: 1995-06-12
 - id: N425
-  status: missing
   title: 'Defect Report Log, #142-149'
   author: Plauger
   date: 1995-06-12
@@ -10338,102 +10156,82 @@
   issued: 1995-02
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n423.pdf
 - id: N422
-  status: missing
   title: Removal of auto Keyword
   author: Tribble
   date: 1995-03-19
 - id: N421
-  status: missing
   title: Signed Integer Division
   author: MacDonald
   date: 1995-02-23
 - id: N420
-  status: missing
   title: Big Integer Routines and Types
   author: Rogers
   date: 1995-02-07
 - id: N419
-  status: missing
   title: Addition of Predefined Identifier __FUNC__
   author: Tribble
   date: 1995-01-23
 - id: N418
-  status: missing
   title: Allow Empty Arguments in Macro Replacement
   author: Tydeman
   date: 1995-01-09
 - id: N417
-  status: missing
   title: String Classification and Conversion Functions
   author: Lemings
   date: 1995-01-26
 - id: N416
-  status: missing
   title: Sufficient Interest in Boolean Type?
   author: Lemings
   date: 1994-12-30
 - id: N415
-  status: missing
   title: Improved Random Number Guidelines
   author: Jones
   date: 1995-02-18
 - id: N414
-  status: missing
   title: X3 Subgroup Annual Report
   author: Jaeschke
   date: 1995-04-29
 - id: N413
-  status: missing
   title: C9X Specification-Based Extended Integer Range
   author: Farance
   date: 1995-04-28
 - id: N412
-  status: missing
   title: C9X Draft 2
   author: Farance
   date: 1995-03-24
 - id: N411
-  status: missing
   title: X3J11 comments on IEEE 1003.1i/D2.0
   author: Farance
   date: 1995-03-24
 - id: N410
-  status: missing
   title: X3J11 comments on IEEE 2003.1b/D4
   author: Farance
   date: 1995-03-24
 - id: N409
-  status: missing
   title: X3J11 comments on IEEE 1003.1a/D12
   author: Farance
   date: 1995-04-27
 - id: N408
-  status: missing
   title: Imaginary Types Via Typedefs
   author: Thomas
   date: 1995-04-24
 - id: N407
-  status: missing
   title: FPCE Features for C9X
   author: Thomas
   date: 1995-04-24
 - id: N406
-  status: missing
   title: Complex Type Simplified
   author: MacDonald
   date: 1995-04-19
 - id: N405
-  status: missing
   title: Signed Integer Division
   author: MacDonald
   date: 1995-04-19
 - id: N404
-  status: missing
   title: Tag Compatibility
   author: MacDonald
   date: 1995-04-19
 - id: N403
-  status: missing
   title: Numerical C Extensions Technical Report
   author: Jaeschke
   date: 1995-04-17
@@ -10445,288 +10243,232 @@
   date: 1995-02-01
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n402.pdf
 - id: N401
-  status: missing
   title: Propsed <inttypes.h> Header
   author: Kwan
   date: 1995-03-11
 - id: N400
-  status: missing
   title: Agenda for 12-16 Jun 95 Meeting in Copenhagen
   author: Plauger
   date: 1995-01-13
 - id: N399
-  status: missing
   title: Revised Submission Guidelines
   author: Jaeschke
   date: 1994-12-09
 - id: N398
-  status: missing
   title: Revised Charter Document
   author: Jaeschke
   date: 1994-12-09
 - id: N397
-  status: missing
   title: Complex C Extensions
   author: Thomas
   date: 1994-12-09
 - id: N396
-  status: missing
   title: Minutes of 05-09 Dec 94 Meeting in Plano TX
   author: Stanberry
   date: 1994-12-09
 - id: N395
-  status: missing
   title: Revision of DPCE, Version 1.6
   author: Stanberry
   date: 1994-12-09
 - id: N394
-  status: missing
   title: Project Proposal for Revising ANSI C
   author: Jaeschke
   date: 1994-12-06
 - id: N393
-  status: missing
   title: Adding Support for Distributed Objects
   author: Farance
   date: 1994-12-04
 - id: N392
-  status: missing
   title: Extending VLAs to Include Variable Rank Arrays
   author: Farance
   date: 1994-12-04
 - id: N391
-  status: missing
   title: Arrays as First Class Objects
   author: Farance
   date: 1994-12-04
 - id: N390
-  status: missing
   title: Extending Character Constants for Named Characters
   author: Farance
   date: 1994-12-04
 - id: N389
-  status: missing
   title: Comments on LIA
   author: Schaffert
   date: 1994-11-28
 - id: N388
-  status: missing
   title: Defect Reports 002-025
   author: BSI
   date: 1994-12-06
 - id: N387
-  status: missing
   title: X3J11 comments on IEEE 1238.1
   author: Farance
   date: 1994-10-03
 - id: N386
-  status: missing
   title: Specification-Based Extended Integer Range
   author: Farance
   date: 1994-10-28
 - id: N385
-  status: missing
   title: C9X SGML Conversion + TC1
   author: Farance
   date: 1994-10-28
 - id: N384
-  status: missing
   title: Extending C with Arrays of Variable Length
   author: Cheng
   date: 1994-10-25
 - id: N383
-  status: missing
   title: Data Parallel C Extensions, Version 1.5
   author: Stanberry
   date: 1994-10-03
 - id: N382
-  status: missing
   title: Minutes of the 26-28 Sep 94 DPCE Meeting
   author: Hatcher
   date: 1994-10-03
 - id: N381
-  status: missing
   title: Extended Integers for C
   author: Kwan
   date: 1994-09-27
 - id: N380
-  status: missing
   title: Guidelines for Submission to the C9X Revision
   author: Jaeschke
   date: 1994-09-12
 - id: N379
-  status: missing
   title: 'Internationalization: A Primer'
   author: Jaeschke
   date: 1994-09-12
 - id: N378
-  status: missing
   title: Agenda for 05-09 Dec '94 Meeting in Dallas
   author: Plauger
   date: 1994-08-19
 - id: N377
-  status: missing
   title: Defect Report Log
   author: Plauger
   date: 1994-08-19
 - id: N376
-  status: missing
   title: 'Programming on Purpose: The Central Folly'
   author: Plauger
   date: 1994-08-19
 - id: N375
-  status: missing
   title: Minutes of 27-29 Jul 94 WG14 Meeting in Tokyo
   author: Farance
   date: 1994-08-19
 - id: N374
-  status: missing
   title: Revised Charter Document
   author: Jaeschke
   date: 1994-08-19
 - id: N373
-  status: missing
   title: E-mail
   author: WG20
   date: 1994-07-27
 - id: N372
-  status: missing
   title: X3J11 Response to CBEMA RFI
   author: Farance
   date: 1994-07-27
 - id: N371
-  status: missing
   title: Internationalization in C and POSIX Standards
   author: Simonsen
   date: 1994-07-27
 - id: N370
-  status: missing
   title: SPIRIT C
   author: Kuroda
   date: 1994-07-27
 - id: N369
-  status: missing
   title: ISO C Proposed Defect Reports
   author: Pepperdine
   date: 1994-07-27
 - id: N368
-  status: missing
   title: Why Both C and C++ Standards are Necessary
   author: Jones
   date: 1994-07-27
 - id: N367
-  status: missing
   title: Future Directions for C
   # Original name was missing the W. I assume Glassboro is the Glassborow
   # that submitted other documents.
   author: Glassborow
   date: 1994-07-27
 - id: N366
-  status: missing
   title: Minutes of 06-08 June 94 DPCE Meeting
   author: Keaton
   date: 1994-07-08
 - id: N365
-  status: missing
   title: Complex C Extensions
   author: Thomas
   date: 1994-07-07
 - id: N364
-  status: missing
   title: 'Floating-Point C Extensions, Draft #3'
   author: Thomas
   date: 1994-07-07
 - id: N363
-  status: missing
   title: Revised Charter for Revising Standard C
   author: Jaeschke
   date: 1994-06-26
 - id: N362
-  status: missing
   title: Comments on Complex v. Imaginary Types
   author: Gentleman
   date: 1994-06-08
 - id: N361
-  status: missing
   title: Call for Volunteers, X3J11 Vice Chair
   author: Arnold
   date: 1994-05-31
 - id: N360
-  status: missing
   title: Regarding Defect Report Processing Procedures
   author: Guilmette
   date: 1994-06-08
 - id: N359
-  status: missing
   title: Letter to Jaeschke on X3H5
   author: Rinehuls
   date: 1994-05-31
 - id: N358
-  status: missing
   title: Hotel Information for 05-09 Dec 94 Dallas TX
   author: Meyer
   date: 1994-06-05
 - id: N357
-  status: missing
   title: Compound Literals
   author:
   - Prosser
   - Keaton
   date: 1994-06-05
 - id: N356
-  status: missing
   title: Designated Initializers
   author:
   - Prosser
   - Keaton
   date: 1994-06-05
 - id: N355
-  status: missing
   title: Extended Integer Range/Portable Data Structures
   author: Farance
   date: 1994-06-05
 - id: N354
-  status: missing
   title: Complex C Extensions
   author: Thomas
   date: 1994-06-05
 - id: N353
-  status: missing
   title: Fortran 90 VLA/Data Parallel Report
   author: Farance
   date: 1994-06-05
 - id: N352
-  status: missing
   title: Minutes of San Jose X3J11 Meeting
   author: Stanberry
   date: 1994-06-05
 - id: N351
-  status: missing
   title: Model Electronics Document Project
   author: Farance
   date: 1994-06-05
 - id: N350
-  status: missing
   title: An Alternative to Imaginary Types
   author: MacDonald
   date: 1994-06-03
 - id: N349
-  status: missing
   title: Extended Integers for C
   author: Kwan
   date: 1994-06-06
 - id: N348
-  status: missing
   title: Extending C with Arrays of Variable Length
   author: Cheng
   date: 1994-06-06
 - id: N347
-  status: missing
   title: Open Defect Reports (#060-#137)
   author: Plauger
   date: 1994-04-30
 - id: N346
-  status: missing
   title: Revising Standard C
   journal: The Journal of C Language Translation
   author: Plauger
@@ -10736,7 +10478,6 @@
   volume: 5
   issue: 1
 - id: N345
-  status: missing
   title: ALEF Language Reference Manual
   book: "The Plan 9 Programmer's Manual"
   publisher: AT&T Bell Laboratories
@@ -10746,7 +10487,6 @@
   issued: 1993
   mirror: https://swtch.com/~rsc/thread/alef.pdf
 - id: N344
-  status: missing
   title: How to Use the Plan 9 C Compiler
   book: "The Plan 9 Programmer's Manual"
   publisher: AT&T Bell Laboratories
@@ -10756,7 +10496,6 @@
   issued: 1992
   mirror: https://plan9.io/sys/doc/comp.html
 - id: N343
-  status: missing
   title: A New C Compiler
   journal: Proceedings of the Summer 1990 UKUUG Conf.
   author: Thompson
@@ -10764,22 +10503,18 @@
   issued: 1990
   mirror: http://doc.cat-v.org/bell_labs/new_c_compilers/new_c_compiler.pdf
 - id: N342
-  status: missing
   title: Agenda for Jun 94 X3J11 Meeting in San Jose
   author: Jaeschke
   date: 1994-04-02
 - id: N341
-  status: missing
   title: Model Electronic Document Project
   author: Farance
   date: 1994-04-29
 - id: N340
-  status: missing
   title: DPCE Array Slicing Proposal
   author: Farance
   date: 1994-04-29
 - id: N339
-  status: missing
   title: Issues Regarding Imaginary Types for C and C++
   journal: The Journal of C Language Translation
   author:
@@ -10791,829 +10526,664 @@
   volume: 5
   issue: 1
 - id: N338
-  status: missing
   title: A Rationale for Floating-Point C Extensions
   author: Thomas
   date: 1994-04-23
 - id: N337
-  status: missing
   title: X3J11 Membership List, 12 Apr 94
   author: Jaeschke
   date: 1994-04-12
 - id: N336
-  status: missing
   title: Adding Shapes to Iterators
   author: Homer
   date: 1994-04-11
 - id: N335
-  status: missing
   title: Complex Extensions to C (Rev. 11)
   author: Knaak
   date: 1994-04-11
 - id: N334
-  status: missing
   title: Restricted Pointers in C (Final Report)
   author: Homer
   date: 1994-04-11
 - id: N333
-  status: missing
   title: Record of Responses 1 (Final)
   author: Plauger
   date: 1994-04-06
 - id: N332
-  status: missing
   title: Technical Corrigendum 1 (Final)
   author: Plauger
   date: 1994-04-06
 - id: N331
-  status: missing
   title: Disposition of Comments on TC1 (SC22/N1532)
   author: Plauger
   date: 1994-04-06
 - id: N330
-  status: missing
   title: Data Parallel C Extensions (Draft V. 1.4)
   author: Stanberry
   date: 1994-04-05
 - id: N329
-  status: missing
   title: Minutes of 23-24 Mar 94 DPCE Meeting
   author: Stanberry
   date: 1994-04-05
 - id: N328
-  status: missing
   title: Charter for Revising Standard C
   author: Jaeschke
   date: 1994-03-17
 - id: N327
-  status: missing
   title: X3J11 1994 Annual Report
   author: Jaeschke
   date: 1994-02-25
 - id: N326
-  status: missing
   title: Disposition of Comments from SC22/N1531
   author: Plauger
   date: 1994-02-10
 - id: N325
-  status: missing
   title: Revised Normative Addendum for DAM Balloting
   author: Plauger
   date: 1994-02-10
 - id: N324
-  status: missing
   title: Agenda for 27-29 Jul 94 WG14 Meeting in Tokyo
   author: Plauger
   date: 1994-01-15
 - id: N323
-  status: missing
   title: Summary of Voting on TC1
   author: SC22
   date: 1994-01-05
 - id: N322
-  status: missing
   title: Summary of Voting on PDAM1
   author: SC22
   date: 1994-01-05
 - id: N321
-  status: missing
   title: Minutes of the 1-3 Dec 93 WG14/X3J11 Meeting
   author: Farance
   date: 1994-01-04
 - id: N320
-  status: missing
   title: Changes to Floating-Point C Extensions
   author: Thomas
   date: 1994-01-04
 - id: N319
-  status: missing
   title: Floating-Point C Extensions, Draft 2
   author: Thomas
   date: 1994-01-04
 - id: N318
-  status: missing
   title: Proposed Extension to ANSI/ISO C
   author: Tribble
   date: 1994-01-04
 - id: N317
-  status: missing
   title: Arrays of Variable Length (Draft 1.0)
   author: MacDonald
   date: 1994-01-02
 - id: N316
-  status: missing
   title: Kona Votes on Revisions to ANSI/ISO C
   author: Farance
   date: 1993-12-15
 - id: N315
-  status: missing
   title: Minutes of the 6-7 Dec 93 X3J11.1 Meeting
   author: Stanberry
   date: 1993-12-07
 - id: N314
-  status: missing
   title: DPCE subgroup Minutes
   author: X3J11.1
   date: 1993-12-07
 - id: N313
-  status: missing
   title: Complex Number Classes in C++
   author: Vermeulen
   date: 1993-10-01
 - id: N312
-  status: missing
   title: Fat Pointers
   author: Meissner
   date: 1993-12-06
 - id: N311
-  status: missing
   title: Numerical Extensions to ANSI C in CH
   author: Cheng
   date: 1993-11-30
 - id: N310
-  status: missing
   title: Why Imaginary Types?
   author: Thomas
   date: 1993-12-01
 - id: N309
-  status: missing
   title: Extended Integers
   author:
   - Kwan
   - Meyers
   date: 1993-12-01
 - id: N308
-  status: missing
   title: Hexadecimal Floating-Point Constants
   author: Thomas
   date: 1993-12-03
 - id: N307
-  status: missing
   title: Why Infix Relational Operators
   author: Thomas
   date: 1993-12-03
 - id: N306
-  status: missing
   title: Comments on TC1
   author: Feather
   date: 1993-12-01
 - id: N305
-  status: missing
   title: Response to X3T2 on LIA
   author: Jaeschke
   date: 1993-11-09
 - id: N304
-  status: missing
   title: Review of Normative Addendum
   author: Feather
   date: 1993-12-01
 - id: N303
-  status: missing
   title: Proposed Defect Reports 24-25
   author: Guilmette
   date: 1993-12-01
 - id: N302
-  status: missing
   title: Designated Initializers and Compound Literals
   author: Prosser
   date: 1993-12-01
 - id: N301
-  status: missing
   title: WG14 E-mail 423-503
   author: Noda
   date: 1993-11-29
 - id: N300
-  status: missing
   title: Japanese Position and Rationale on SC22/N1443
   author: Noda
   date: 1993-11-29
 - id: N299
-  status: missing
   title: Proposed Defect Reports 1-23 (Edited)
   author: Guilmette
   date: 1993-11-30
 - id: N298
-  status: missing
   title: Classes in C
   author: Jervis
   date: 1993-11-16
 - id: N297
-  status: missing
   title: Proposed Defect Reports
   author: Feather
   date: 1993-10-27
 - id: N296
-  status: missing
   title: Proposed Defect Reports
   author: Guilmette
   date: 1993-11-02
 - id: N295
-  status: missing
   title: Proposed Defect Report
   author: Yu
   date: 1993-10-20
 - id: N294
-  status: missing
   title: 27-29 Jul 94 WG14 Meeting in Tokyo
   author: Saitoh
   date: 1993-10-01
 - id: N293
-  status: missing
   title: 06-10 Jun 94 X3J11 Meeting in San Jose CA
   author: Benito
   date: 1993-09-27
 - id: N292
-  status: missing
   title: Liaison Statement from SC21/WG3
   author: Gradwell
   date: 1993-10-13
 - id: N291
-  status: missing
   title: Floating Point C Extensions
   author: Thomas
   date: 1993-10-12
 - id: N290
-  status: missing
   title: 'Technical Corrigendum #1'
   author: Plauger
   date: 1993-08-22
 - id: N289
-  status: missing
   title: 'Record of Responses #1'
   author: Plauger
   date: 1993-08-22
 - id: N288
-  status: missing
   title: Revised Normative Addendum for PDAM Balloting
   author: Plauger
   date: 1993-08-22
 - id: N287
-  status: missing
   title: Disposition of Comments from SC22/N1396
   author: Plauger
   date: 1993-08-22
 - id: N286
-  status: missing
   title: Agenda for 01-03 Dec 93 WG14 Meeting in Kona
   author: Plauger
   date: 1993-08-22
 - id: N285
-  status: missing
   title: Minutes of 19-21 Jul 93 WG14 Meeting in London
   author: Plauger
   date: 1993-08-22
 - id: N284
-  status: missing
   title: 'Defect Reports #056-062'
   author: Plauger
   date: 1993-08-22
 - id: N283
-  status: missing
   title: Recommendations of Ad Hoc Group on Character
   author: SC22
   date: 1993-08-22
 - id: N282
-  status: missing
   title: 'WG14 E-mail #376-422'
   author: Noda
   date: 1993-07-19
 - id: N281
-  status: missing
   title: Summary of Voting on N1341
   author: SC22
   date: 1993-06-24
 - id: N280
-  status: missing
   title: Rationale for MSE
   author: Noda
   date: 1993-07-19
 - id: N279
-  status: missing
   title: Extended Character Transliteration
   author: Suehiro
   date: 1993-07-19
 - id: N278
-  status: missing
   title: Proposed Defect Reports
   author: Feather
   date: 1993-07-19
 - id: N277
-  status: missing
   title: 'Defect Reports #057-059'
   author: Plauger
   date: 1993-07-19
 - id: N276
-  status: missing
   title: Corrections and Additions to MSE
   author: Plauger
   date: 1993-06-16
 - id: N275
-  status: missing
   title: Minutes of Mar 93 Meeting of X3J11
   author: Meyers
   date: 1993-06-17
 - id: N274
-  status: missing
   title: Restricted Pointers in C (revision 8)
   author: MacDonald
   date: 1993-06-03
 - id: N273
-  status: missing
   title: MSE Critique
   author: Molenda
   date: 1993-05-19
 - id: N272
-  status: missing
   title: Comments on CD N1341 (email WG14.375)
   author: Plauger
   date: 1993-05-17
 - id: N271
-  status: missing
   title: Dutch vote on N1341 (email WG14.377)
   author: Keizer
   date: 1993-05-17
 - id: N270
-  status: missing
   title: Comments on CD N1341 (email WG14.374)
   author: Noda
   date: 1993-05-17
 - id: N269
-  status: missing
   title: Electronic Mail
   author: Weidenhofer
   date: 1993-05-10
 - id: N268
-  status: missing
   title: X3J11 1993 Annual Report
   author: Plum
   date: 1993-04-15
 - id: N267
-  status: missing
   title: Follow Up to X3LB 2I38R
   author: Vago
   date: 1993-01-13
 - id: N266
-  status: missing
   title: US Offer to Host 01-03 Dec 93 WG14/X3J11 Meeting
   author: Maas
   date: 1993-03-26
 - id: N265
-  status: missing
   title: Liaison Statement from WG21
   author: Plum
   date: 1993-04-13
 - id: N264
-  status: missing
   title: Agenda for 19-21 May 93 X3J11 Meeting in Garden
   author: Plum
   date: 1993-04-15
 - id: N263
-  status: missing
   title: 'Defect Reports #050-#056'
   author: Plauger
   date: 1993-04-19
 - id: N262
-  status: missing
   title: Chapter 19 of C++ Working Paper
   author: WG21
   date: 1993-04-15
 - id: N261
-  status: missing
   title: 'Approval of C Information Bulletin #1 for Publication'
   author: Barra
   date: 1993-02-23
 - id: N260
-  status: missing
   title: 'Defect Report Log #001-#050'
   author: Plauger
   date: 1993-02-28
 - id: N259
-  status: missing
   title: Normative Addendum Edited for CD Balloting
   author: Prosser
   date: 1993-02-28
 - id: N258
-  status: missing
   title: Call for Volunteers, X3J11 International Rep.
   author: CBEMA
   date: 1993-01-26
 - id: N257
-  status: missing
   title: Call for Volunteers, X3J11 Chair
   author: CBEMA
   date: 1993-02-03
 - id: N256
-  status: missing
   title: Invitation for May 93 X3J11 Meeting in New
   author: Farance
   date: 1993-01-08
 - id: N255
-  status: missing
   title: 'Defect Report #49'
   author: Metsky
   date: 1993-01-08
 - id: N254
-  status: missing
   title: On Electronic Publication
   author: X3
   date: 1992-10-02
 - id: N253
-  status: missing
   title: Revised Agenda for 09-11 Dec 92 X3J11 Meeting
   author: Plum
   date: 1992-12-03
 - id: N252
-  status: missing
   title: X3J11 E-mail to Date
   author: Weidenhofer
   date: 1992-12-07
 - id: N251
-  status: missing
   title: Hotel Information for 19-21 Jul 93 WG14 Meeting
   author: Stride
   date: 1992-12-10
 - id: N250
-  status: missing
   title: Agenda for 19-21 Jul 93 WG14 Meeting in London
   author: Plauger
   date: 1992-12-10
 - id: N249
-  status: missing
   title: Minutes of 08-11 Dec 92 X3J11/WG14 Meeting
   author: Plauger
   date: 1992-12-10
 - id: N248
-  status: missing
   title: Collection of Open Requests for Interpretation
   author: Gwyn
   date: 1992-12-10
 - id: N247
-  status: missing
   title: Revised Danish Contribution to Normative Addendum
   author: Cordsen
   date: 1992-12-09
 - id: N246
-  status: missing
   title: X3J11/92-059 Additional Interpretations Renumbered
   author: Plum
   date: 1992-12-08
 - id: N245
-  status: missing
   title: 'X3J11 TIB #1 Renumbered for ISO 9899'
   author: Plum
   date: 1992-12-08
 - id: N244
-  status: missing
   title: UK Contribution to Normative Addendum
   author: Jones
   date: 1992-12-08
 - id: N243
-  status: missing
   title: UK Response to MSE
   author: Feather
   date: 1992-12-08
 - id: N242
-  status: missing
   title: WG14 E-mail to Date
   author: Noda
   date: 1992-12-05
 - id: N241
-  status: missing
   title: UK Contribution to Normative Addendum
   author: Jones
   date: 1992-11-13
 - id: N240
-  status: missing
   title: Danish Contribution to Normative Addendum
   author: Simonsen
   date: 1992-11-13
 - id: N239
-  status: missing
   title: Japanese Contribution to Normative Addendum
   author: Inose
   date: 1992-11-13
 - id: N238
-  status: missing
   title: Redactor's Report for Revised MSE (N239)
   author: Inose
   date: 1992-11-13
 - id: N237
-  status: missing
   title: Invitation to Host Dec 93 WG14 Meeting in Kona
   author: Plum
   date: 1992-11-10
 - id: N236
-  status: missing
   title: Preliminary Agenda for 09-11 Dec 92 Meeting in Stirling VA.
   author: Brodie
   date: 1992-11-02
 - id: N235
-  status: missing
   title: Announcement of Apr 93 Ad Hoc Meeting on Sets in Copenhagen
   author: Hopper
   date: 1992-10-20
 - id: N234
-  status: missing
   title: Cover Letter for Questionnaire on Cross-Language
   author: Rabin
   date: 1992-09-30
 - id: N233
-  status: missing
   title: Procedures for Handling Defect Reports
   author: SC22
   date: 1992-09-30
 - id: N232
-  status: missing
   title: Cover Letter for N206-N231 Mailing
   author: Plauger
   date: 1992-06-05
 - id: N231
-  status: missing
   title: Report to SC22 Plenary
   author: Plauger
   date: 1992-06-05
 - id: N230
-  status: missing
   title: 'WG14 E-mail through #215'
   author: Noda
   date: 1992-06-05
 - id: N229
-  status: missing
   title: Information on 8-10 Dec 92 WG14 Meeting Washington DC
   author: Jaeschke
   date: 1992-06-05
 - id: N228
-  status: missing
   title: Agenda for 8-10 Dec 92 Meeting
   author: Plauger
   date: 1992-06-05
 - id: N227
-  status: missing
   title: Floating-Point C Extensions
   author: Thomas
   date: 1992-05-28
 - id: N226
-  status: missing
   title: Restricted Pointers in C
   author: Homer
   date: 1992-05-21
 - id: N225
-  status: missing
   title: Designated Initializers and Compound Literals
   author: Prosser
   date: 1992-05-20
 - id: N224
-  status: missing
   title: Minutes of 13-15 May 92 WG14/X3J11 Meeting
   author: Plauger
   date: 1992-05-15
 - id: N223
-  status: missing
   title: Edits to ANSI TIB
   author: Gwyn
   date: 1992-05-14
 - id: N222
-  status: missing
   title: Danish Proposal on Digraphs
   author: Simonsen
   date: 1992-05-13
 - id: N221
-  status: missing
   title: Enhancing Multibyte Handling Functions
   author: Kumagai
   date: 1992-05-13
 - id: N220
-  status: missing
   title: Comments on MSE N180R
   author: SimonsenKarl
   date: 1992-05-06
 - id: N219
-  status: missing
   title: Extended Identifiers in C/C++
   author: Simonsen
   date: 1992-03-21
 - id: N218
-  status: missing
   title: Revised Danish C Addendum
   author: Simonsen
   date: 1992-05-13
 - id: N217
-  status: missing
   title: Open Issues for MSE
   author: Simonsen
   date: 1992-05-08
 - id: N216
-  status: missing
   title: Needs from this Meeting
   author: Simonsen
   date: 1992-05-13
 - id: N215
-  status: missing
   title: Response to WG21, WG14 on ISO 2022
   author: Simonsen
   date: 1992-04-23
 - id: N214
-  status: missing
   title: Extended Identifiers
   author: Simonsen
   date: 1992-04-23
 - id: N213
-  status: missing
   title: WG15 Liaison Statement to WG20
   author: Simonsen
   date: 1992-05-07
 - id: N212
-  status: missing
   title: Wide Character Classification
   author: Inose
   date: 1992-05-13
 - id: N211
-  status: missing
   title: E-mail on Shift State Encoding
   author: Inose
   date: 1992-05-09
 - id: N210
-  status: missing
   title: Redactor's Report on N205
   author: Inose
   date: 1992-05-09
 - id: N209
-  status: missing
   title: Nordic/Baltic POSIX Locales
   author: Simonsen
   date: 1992-04-14
 - id: N208
-  status: missing
   title: Revised UK C Addendum
   author: Jones
   date: 1992-05-08
 - id: N207
-  status: missing
   title: Proposal for Localedef Format
   author: Plum
   date: 1992-04-24
 - id: N206
-  status: missing
   title: NP on Cultural Elements and Registry
   author: Simonsen
   date: 1992-04-24
 - id: N205
-  status: missing
   title: Revised Multibyte Support Extension
   author: Inose
   date: 1992-03-31
 - id: N204
-  status: missing
   title: Cover Letter for N181-N202 Mailing
   author: Plauger
   date: 1992-01-28
 - id: N203
-  status: missing
   title: External Identifiers
   author: Plum
   date: 1992-01-28
 - id: N202
-  status: missing
   title: Agenda for 13-15 May 92 WG14 Meeting
   author: Plauger
   date: 1992-01-28
 - id: N201
-  status: missing
   title: Minutes of 11-13 Dec 91 WG14 Meeting
   author: Plauger
   date: 1992-01-10
 - id: N200
-  status: missing
   title: Minutes of 11 Dec 91 X3J11 Meeting
   author: Plauger
   date: 1992-01-10
 - id: N199
-  status: missing
   title: Character Sets and C (from JCLT)
   author: Plauger
   date: 1992-01-02
 - id: N198
-  status: missing
   title: Alternate Spellings of Tokens
   author: Simonsen
   date: 1991-12-12
 - id: N197
-  status: missing
   title: Support for Symbolic Character Names in MSE
   author: Simonsen
   date: 1991-12-12
 - id: N196
-  status: missing
   title: Canada, Response to ISO 10646
   author: WG14
   date: 1991-12-11
 - id: N195
-  status: missing
   title: WG15 Response to ISO 10646
   author: Terry
   date: 1991-11-12
 - id: N194
-  status: missing
   title: Proposal on setwctype
   author: McKean
   date: 1991-12-10
 - id: N193
-  status: missing
   title: Request for Interpretation of islower
   author: McKean
   date: 1991-12-09
 - id: N192
-  status: missing
   title: Minutes of 23-27 Sep 91 Plenary
   author: SC22
   date: 1991-09-27
 - id: N191
-  status: missing
   title: Resolutions of 23-27 Sep 91 Plenary
   author: SC22
   date: 1991-11-27
 - id: N190
-  status: missing
   title: Locale Proposal
   author: Joloboff
   date: 1991-11-27
 - id: N189
-  status: missing
   title: WG21 Minutes on Digraphs
   author: WG21
   date: 1991-12-11
 - id: N188
-  status: missing
   title: Letter to Côté on Validation
   author: van Brummen
   date: 1991-09-02
 - id: N187
-  status: missing
   title: SC22 Report on E-mail Facilities
   author: Joslin
   date: 1991-09-25
 - id: N186
-  status: missing
   title: WG14 E-mail to Date
   author: ITSCJ
   date: 1991-12-07
 - id: N185
-  status: missing
   title: UK Comments on MSE
   author: WG14
   date: 1991-11-06
 - id: N184
-  status: missing
   title: Position Paper on C++ Linkage
   author: AFNOT
   date: 1991-12-06
 - id: N183
-  status: missing
   title: Comments on MSE
   author: Prosser
   date: 1991-11-01
 - id: N182
-  status: missing
   title: Redactor's Report on N180
   author: ITSCJ
   date: 1991-11-30
 - id: N181
-  status: missing
   title: UK Addendum
   author: Jones
   date: 1991-12-05
 - id: N180
-  status: missing
   title: MSE Addendum (Revised N169), mailed separately
   author: ITSCJ
   date: 1991-09-15
 - id: N179
-  status: missing
   title: Minutes of 4-5 Mar 91 NCEG Meeting in Norwood
   author: Jaeschke
   date: 1991-06-22
 - id: N178
-  status: missing
   title: Cover Letter for N164-N177 Mailing (+N179)
   author: Plauger
   date: 1991-06-22
 - id: N177
-  status: missing
   title: Report to SC22 Plenary on WG14 Status
   author: Plauger
   date: 1991-06-22
 - id: N176
-  status: missing
   title: Agenda for 11-13 Dec 91 WG14 Meeting in Milan
   author: Plauger
   date: 1991-06-22
 - id: N175
-  status: missing
   title: Minutes of 06-08 Mar 91 X3J11 Meeting in MA
   author: Terrazas
   date: 1991-03-27
 - id: N174
-  status: missing
   title: Information on 11-13 Dec 91 WG14 Meeting in Milan
   author: Zappa
   date: 1991-05-20
@@ -11623,870 +11193,698 @@
   date: 1991-05-20
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n0173.pdf
 - id: N172
-  status: missing
   title: E-mail to Plauger on WG14 Issues
   author: Simonsen
   date: 1991-05-13
 - id: N171
-  status: missing
   title: Result of X3J11 Letter Ballot on Adopting ISO
   author: Plum
   date: 1991-05-13
 - id: N170
-  status: missing
   title: WG14 E-mail to Date
   author: WG14
   date: 1991-05-13
 - id: N169
-  status: missing
   title: MSE Addendum (Revised N145)
   author: ITSCJ
   date: 1991-04-23
 - id: N168
-  status: missing
   title: Rationale for Changes on N145
   author:
   - Kumagai
   - Fukutomi
   date: 1991-04-23
 - id: N167
-  status: missing
   title: Request for Review of MSE
   author: Inose
   date: 1991-04-22
 - id: N166
-  status: missing
   title: UK C Addendum Issues
   author: Jones
   date: 1991-05-08
 - id: N165
-  status: missing
   title: Style of UK Addendum Issues
   author: Jones
   date: 1991-05-08
 - id: N164
-  status: missing
   title: US Position on Digraph Spellings
   author: Jaeschke
   date: 1991-05-03
 - id: N163
-  status: missing
   title: Cover Letter for N133-N162 Mailing
   author: Plauger
   date: 1991-03-11
 - id: N162
-  status: missing
   title: Letter to Côté on Various Action Items
   author: Plauger
   date: 1991-03-11
 - id: N161
-  status: missing
   title: Agenda for 13-13 May 91 WG14 Meeting in Tokyo
   author: Plauger
   date: 1991-03-11
 - id: N160
-  status: missing
   title: Summary of Proposed Changes to N145, Support Extension
   author: Fukutomi
   date: 1991-02-05
 - id: N159
-  status: missing
   title: Minutes of 26-27 Nov 90 Meeting of WG14 in
   author: Keizer
   date: 1991-02-05
 - id: N158
-  status: missing
   title: Hotel Information on 13-15 May 91 Meeting in
   author: Saitoh
   date: 1990-12-19
 - id: N157
-  status: missing
   title: Letter to Plauger Conveying SC22/N889, of Derek Jones as Project Editor
   author: Côté
   date: 1990-12-10
 - id: N156
-  status: missing
   title: Response to Comments on DIS 9899
   author: Keizer
   date: 1990-11-28
 - id: N155
-  status: missing
   title: Proposal on Genchars
   author: Simonsen
   date: 1990-11-27
 - id: N154
-  status: missing
   title: Presentation on Outcome of SC22 Meeting
   author: Carter
   date: 1990-11-27
 - id: N153
-  status: missing
   title: Sample National Profile
   author: Danish Standards
   date: 1990-11-27
 - id: N152
-  status: missing
   title: National Locale and Charmap Example
   author: Danish Standards
   date: 1990-11-26
 - id: N151
-  status: missing
   title: Verification of ISO 9899-C
   author: van Brummen
   date: 1990-11-26
 - id: N150
-  status: missing
   title: Clarification of Liaison Letter
   author: SC2/WG2
   date: 1990-11-26
 - id: N149
-  status: missing
   title: European C Conformance Testing
   author:
   - Chacón
   - Martin
   date: 1990-11-26
 - id: N148
-  status: missing
   title: Presentation on X3J16, C++ Update
   author: Carter
   date: 1990-11-26
 - id: N147
-  status: missing
   title: Conveying Brodie's X3J11 Synchronization Plan
   author: Jameson
   date: 1990-11-16
 - id: N146
-  status: missing
   title: Proposing <wchar.h>
   author: Plum
   date: 1990-11-02
 - id: N145
-  status: missing
   title: ISO Formatted Multibyte Support Extension
   author: ITSCJ
   date: 1990-11-26
 - id: N144
-  status: missing
   title: Clarification of Liaison Letter from SC2/WG2
   author: Suehiro
   date: 1990-11-26
 - id: N143
-  status: missing
   title: Report on SC22/N623R Character Sets
   author: Simonsen
   date: 1990-10-07
 - id: N142
-  status: missing
   title: Open Issues of Multibyte Support Extension
   author: ITSCJ
   date: 1990-11-26
 - id: N141
-  status: missing
   title: A European Representation for ISO C
   author: Stroustrop
   date: 1990-11-26
 - id: N140
-  status: missing
   title: Non-ASCII Letters in Identifiers
   author: Simonsen
   date: 1990-11-26
 - id: N139
-  status: missing
   title: C Addenda Items
   author: Jones
   date: 1990-11-26
 - id: N138
-  status: missing
   title: Problems with C Character Set Assumptions
   author: Noda
   date: 1990-10-30
 - id: N137
-  status: missing
   title: Information on 13-15 May 91 Meeting in Tokyo
   author: ITSCJ
   date: 1990-11-26
 - id: N136
-  status: missing
   title: Comments on Danish Proposal
   author: Inose
   date: 1990-11-26
 - id: N135
-  status: missing
   title: Problems with scanf, printf Families
   author: Kumagai
   date: 1990-11-26
 - id: N134
-  status: missing
   title: Draft Response to DIS9899
   author: Keizer
   date: 1990-11-26
 - id: N133
-  status: missing
   title: Proposed Name for Wide Chars
   author: Plum
   date: 1990-09-11
 - id: N132
-  status: missing
   title: Cover Letter for N109-N132 Mailing
   author: Plauger
   date: 1990-10-22
 - id: N131
-  status: missing
   title: Minutes of 24-25 Sep 90 X3J11 Meeting
   author: Plauger
   date: 1990-10-22
 - id: N130
-  status: missing
   title: Agenda for 26-27 Nov 90 WG14 Meeting in Copenhagen
   author: Plauger
   date: 1990-09-03
 - id: N129
-  status: missing
   title: WG14 Response to SC22/N673, Comments on DIS
   author: Keizer
   date: 1990-09-03
 - id: N128
-  status: missing
   title: ISO/IEC Editorial Comments on DIS 9899
   author: Cota
   date: 1990-08-30
 - id: N127
-  status: missing
   title: Information on 26-27 Nov 90 WG14 Meeting in
   author: Larsen
   date: 1990-08-30
 - id: N126
-  status: missing
   title: Comments on WG14/N117
   author: Plum
   date: 1990-08-30
 - id: N125
-  status: missing
   title: Minutes of 18-19 Jun 90 WG14 Meeting
   author: Farance
   date: 1990-08-30
 - id: N124
-  status: missing
   title: Summary of Voting on DIS 9899
   author: WG14
   date: 1990-08-08
 - id: N123
-  status: missing
   title: Excerpt from ISO DTR on Character Sets Used for Text
   author: ISO
   date: 1990-06-18
 - id: N122
-  status: missing
   title: Character Handling Requirements
   author: SC22
   date: 1990-06-18
 - id: N121
-  status: missing
   title: Report of WG15 Rapporteur on Internationalization
   author: Dunlop
   date: 1990-06-18
 - id: N120
-  status: missing
   title: Danish Locale Definitions
   author: Simonsen
   date: 1990-06-18
 - id: N119
-  status: missing
   title: ANSI X3.159-1989
   author: ANSI
   date: 1990-06-18
 - id: N118
-  status: missing
   title: C++ Overview
   author: Carter
   date: 1990-06-18
 - id: N117
-  status: missing
   title: Revised Danish Comments on ISO
   author:
   - Simonsen
   - Stroustrop
   date: 1990-06-18
 - id: N116
-  status: missing
   title: Proposed Multibyte Support Extension
   author: ITSCJ
   date: 1990-06-18
 - id: N115
-  status: missing
   title: On Multibyte Support Extension
   author: Kumagai
   date: 1990-06-18
 - id: N114
-  status: missing
   title: Revised N110
   author: Keizer
   date: 1990-06-18
 - id: N113
-  status: missing
   title: Paper on Maintenance
   author: Keizer
   date: 1990-06-18
 - id: N112
-  status: missing
   title: U.K. Suggested Clarifications of Standard
   author: Jones
   date: 1990-06-18
 - id: N111
-  status: missing
   title: Rationale for ITSCJ Proposal
   author: Inose
   date: 1990-06-01
 - id: N110
-  status: missing
   title: Draft Response to Comments on DP9899
   author: Keizer
   date: 1990-04-06
 - id: N109
-  status: missing
   title: Lodging Information for Jun 90 Meeting
   author: Boldyreff
   date: 1990-04-10
 - id: N108
-  status: missing
   title: Cover Letter for N097-N108 Mailing
   author: Plauger
   date: 1990-03-10
 - id: N107
-  status: missing
   title: Agenda for 18-19 Jun 90 WG14 Meeting
   author: Plauger
   date: 1990-03-10
 - id: N106
-  status: missing
   title: Minutes of 05-06 Mar 90 X3J11 Meeting
   author: Plauger
   date: 1990-03-06
 - id: N105
-  status: missing
   title: Change Summary for ANSI C Edits
   author: Prosser
   date: 1990-02-14
 - id: N104
-  status: missing
   title: ITSCJ Proposed Multibyte Support Extension
   author: ITSCJ
   date: 1990-01-11
 - id: N103
-  status: missing
   title: Letter to Plauger Conveying ITSCJ Proposal
   author: Inose
   date: 1990-01-01
 - id: N102
-  status: missing
   title: Letter to Plauger Conveying ITSCJ Proposal
   author: Nakata
   date: 1990-01-18
 - id: N101
-  status: missing
   title: Redactor Report to X3J11
   author: Prosser
   date: 1990-02-02
 - id: N100
-  status: missing
   title: Letter to ISO Conveying DIS 9899
   author: Côté
   date: 1990-10-24
 - id: N099
-  status: missing
   title: Letter to Côté on DP9899 Comments
   author: Plauger
   date: 1989-10-10
 - id: N098
-  status: missing
   title: Resolution 129 from SC22 plenary
   author: SC22
   date: 1989-09-29
 - id: N097
-  status: missing
   title: Convenor's Report for SC22 plenary
   author: Plauger
   date: 1989-08-31
 - id: N096
-  status: missing
   title: Cover Letter for N094-N095 Mailing
   author: Plauger
   date: 1989-08-23
 - id: N095
-  status: missing
   title: Letter to Côté on DIS Balloting
   author: Plauger
   date: 1989-08-23
 - id: N094
-  status: missing
   title: Summary of Voting on DP9899
   author: Côté
   date: 1989-08-20
 - id: N093
-  status: missing
   title: Cover Letter for N079-N092 Mailing
   author: Plauger
   date: 1989-05-22
 - id: N092
-  status: missing
   title: Minutes of Apr 89 WG14/X3J11 Meeting
   author: Plauger
   date: 1989-04-11
 - id: N091
-  status: missing
   title: A Request to WG14
   author: Keizer
   date: 1989-04-10
 - id: N090
-  status: missing
   title: Minutes of 13-14 Jun 88 WG14 Meeting
   author: Jones
   date: 1989-04-10
 - id: N089
-  status: missing
   title: An Opinion
   author: Keizer
   date: 1989-04-10
 - id: N088
-  status: missing
   title: FAX to Plauger on AFNOR Position
   author: Bourstin
   date: 1989-03-31
 - id: N087
-  status: missing
   title: Request for C++ Standardization
   author: Lenkov
   date: 1989-03-08
 - id: N086
-  status: missing
   title: Agenda for 10-11 Apr 89 X3J11 Meeting
   author: Brodie
   date: 1989-03-08
 - id: N085
-  status: missing
   title: Letter to X3J11 on X3 vote
   author: Brodie
   date: 1989-03-08
 - id: N084
-  status: missing
   title: Letter to Cote requesting DP revote
   author: Plauger
   date: 1989-02-13
 - id: N083
-  status: missing
   title: Letter to Plauger on WG14 progress
   author: Keizer
   date: 1989-02-09
 - id: N082
-  status: missing
   title: Letter to Plauger requesting DP revote
   author: Boldyreff
   date: 1989-02-08
 - id: N081
-  status: missing
   title: Letter to Plauger requesting DP revote
   author: Simonsen
   date: 1989-02-03
 - id: N080
-  status: missing
   title: X3J11 Procedures
   author: Plum
   date: 1989-01-30
 - id: N079
-  status: missing
   title: E-mail to Follett on BSI position
   author: Simonsen
   date: 1989-01-30
 - id: N078
-  status: missing
   title: Cover Letter for N058-N078 Mailing
   author: WG14
   date: 1989-01-28
 - id: N077
-  status: missing
   title: Agenda for 10-11 Apr 89 Meeting
   author: WG14
   date: 1989-01-28
 - id: N076
-  status: missing
   title: UK Presentation of Standard C
   author: Boldyreff
   date: 1989-01-12
 - id: N075
-  status: missing
   title: E-mail to Boldyreff
   author: Simonsen
   date: 1989-01-02
 - id: N074
-  status: missing
   title: Letter to Plauger Expressing SC22 Concerns
   author: Côté
   date: 1988-12-13
 - id: N073
-  status: missing
   title: Draft C Standard
   author: X3J11
   date: 1988-12-07
 - id: N072
-  status: missing
   title: Letter to Boldyreff
   author: Plauger
   date: 1988-12-06
 - id: N071
-  status: missing
   title: Letter to Tondering
   author: Plauger
   date: 1988-12-06
 - id: N070
-  status: missing
   title: Late Comment to X3J11
   author: Maclaren
   date: 1988-11-30
 - id: N069
-  status: missing
   title: Late Comment to X3J11
   author: Boldyreff
   date: 1988-11-30
 - id: N068
-  status: missing
   title: Letter to Plauger on Danish Concerns
   author: Follett
   date: 1988-11-28
 - id: N067
-  status: missing
   title: Rationale
   author: X3J11
   date: 1988-11-18
 - id: N066
-  status: missing
   title: X3J11, Response to Third Public Review
   author: X3J11
   date: 1988-11-18
 - id: N065
-  status: missing
   title: Letter to Public Reviewers
   author: Brodie
   date: 1988-11-18
 - id: N064
-  status: missing
   title: Minutes of Nov 88 Meeting of British C Panel
   author: Boldyreff
   date: 1988-11-08
 - id: N063
-  status: missing
   title: Letter to Plauger on SC22 Meeting
   author: Follett
   date: 1988-11-03
 - id: N062
-  status: missing
   title: Minutes of Sep 88 X3J11 Meeting
   author: Plauger
   date: 1988-10-27
 - id: N061
-  status: missing
   title: Status Report to SC22
   author: Plauger
   date: 1988-09-14
 - id: N060
-  status: missing
   title: Comments
   author: Danish C Panel
   date: 1988-08-19
 - id: N059
-  status: missing
   title: Additional Comments
   author: BSI C Panel
   date: 1988-08-19
 - id: N058
-  status: missing
   title: Minutes of Aug 88 Meeting of C Panel
   author: Boldyreff
   date: 1988-08-09
 - id: N057
-  status: missing
   title: Cover Letter for N046-N057 Mailing
   author: WG14
   date: 1988-06-30
 - id: N056
-  status: missing
   title: Minutes of Jun 88 WG14 Meeting
   author: Jones
   date: 1988-06-14
 - id: N055
-  status: missing
   title: Letter from WG14 to SC22
   author: WG14
   date: 1988-06-14
 - id: N054
-  status: missing
   title: Letter from WG14 to X3J11
   author: WG14
   date: 1988-06-14
 - id: N053
-  status: missing
   title: Wording Changes from the Netherlands
   author: Keizer
   date: 1988-06-13
 - id: N052
-  status: missing
   title: A European for ISO C (Revised 023)
   author:
   - Simonsen
   - Stroustrop
   date: 1988-06-13
 - id: N051
-  status: missing
   title: Additional Comments
   author: BSI C Panel
   date: 1988-06-13
 - id: N050
-  status: missing
   title: Fax to Plauger
   author: Bourstin
   date: 1988-05-30
 - id: N049
-  status: missing
   title: Letter to Plauger
   author: Boldyreff
   date: 1988-05-27
 - id: N048
-  status: missing
   title: Minutes of May 88 Meeting of C Panel
   author: Boldyreff
   date: 1988-05-10
 - id: N047
-  status: missing
   title: Minutes of Apr 88 X3J11 Meeting
   author: Plauger
   date: 1988-04-22
 - id: N046
-  status: missing
   title: Comments Received on DP9899-C
   author: WG14
   date: 1988-04-05
 - id: N045
-  status: missing
   title: Cover Letter for N037-N045 Mailing
   author: WG14
   date: 1988-03-31
 - id: N044
-  status: missing
   title: Agenda for 13-14 Jun 88 Meeting
   author: Plauger
   date: 1988-03-31
 - id: N043
-  status: missing
   title: U.S. Vote(s) on N413
   author: Plauger
   date: 1988-03-15
 - id: N042
-  status: missing
   title: Letter to Plauger on Mycroft Comments
   author: Boldyreff
   date: 1988-02-11
 - id: N041
-  status: missing
   title: Examples of Macro Expansion
   author: Boldyreff
   date: 1988-02-09
 - id: N040
-  status: missing
   title: Comment Accompanying UK Vote of Disapproval Ballot 413
   author: Boldyreff
   date: 1988-02-09
 - id: N039
-  status: missing
   title: Minutes of BSI C Meeting
   author: Boldyreff
   date: 1988-02-09
 - id: N038
-  status: missing
   title: Information on 13-14 Jun 88 Meeting
   author: Boldyreff
   date: 1988-01-20
 - id: N037
-  status: missing
   title: X3 News Release, Second Public Review
   author: ANSI
   date: 1988-01-15
 - id: N036
-  status: missing
   title: Cover Letter for N022-N036 Mailing
   author: Plauger
   date: 1987-12-28
 - id: N035
-  status: missing
   title: Letter to Inose on Kanji Support
   author: Plauger
   date: 1987-12-28
 - id: N034
-  status: missing
   title: Minutes of Dec 87 X3J11 Meeting
   author: Plauger
   date: 1987-12-11
 - id: N033
-  status: missing
   title: Remarks to X3J11
   author: WG14
   date: 1987-12-05
 - id: N032
-  status: missing
   title: Minutes of 16-17 Nov 87 Meeting
   author: Jaeschke
   date: 1987-12-05
 - id: N031
-  status: missing
   title: Letter to Plauger on Kanji Support
   author: Inose
   date: 1987-12-01
 - id: N030
-  status: missing
   title: Letter to Plauger on Kanji Support
   author: Fukutomi
   date: 1987-11-24
 - id: N029
-  status: missing
   title: Questions and Remarks on Draft
   author: van Brummen
   date: 1987-11-16
 - id: N028
-  status: missing
   title: Notes on N369
   author: Korpela
   date: 1987-11-16
 - id: N027
-  status: missing
   title: UK Comments
   author: BSI C Panel
   date: 1987-11-16
 - id: N026
-  status: missing
   title: Multibyte Support
   author: Plauger
   date: 1987-11-16
 - id: N025
-  status: missing
   title: Grouping in C
   author: Plauger
   date: 1987-11-16
 - id: N024
-  status: missing
   title: AFNOR Contribution to Amsterdam Meeting
   author: Bourstin
   date: 1987-10-20
 - id: N023
-  status: missing
   title: Alternative to Trigraphs
   author: Tandering
   date: 1987-10-15
 - id: N022
-  status: missing
   title: Comments from DSA
   author: Tandering
   date: 1987-10-01
 - id: N021
-  status: missing
   title: Cover Letter for N015-N020 Mailing
   author: Plauger
   date: 1987-09-28
 - id: N020
-  status: missing
   title: Proposal for Multi-byte Support
   author: Plauger
   date: 1987-09-28
 - id: N019
-  status: missing
   title: Minutes of Sep 87 X3J11 Meeting
   author: Plauger
   date: 1987-09-18
 - id: N018
-  status: missing
   title: Minutes of Jun 87 X3J11 Meeting
   author: Plauger
   date: 1987-06-12
 - id: N017
-  status: missing
   title: Working Draft
   author: WG14
   date: 1987-06-01
 - id: N016
-  status: missing
   title: Response to Japanese Comments
   author: WG14
   date: 1987-08-01
 - id: N015
-  status: missing
   title: Letter to SC22/WG11 (reviewing SC21/2133, SC21/N2151)
   author: Plauger
   date: 1987-09-21
 - id: N014
-  status: missing
   title: Agenda for 16-17 Nov 87 Meeting
   author: Plauger
   date: 1987-09-16
 - id: N013
-  status: missing
   title: Cover Letter for Agenda
   author: Plauger
   date: 1987-09-16
 - id: N012
-  status: missing
   title: Invitation to Amsterdam
   author: Keizer
   date: 1987-08-17
 - id: N011
-  status: missing
   title: Letter to SC22 Secretariat
   author: Plauger
   date: 1987-07-08
 - id: N010
-  status: missing
   title: Minutes of 11 Jun 87 Meeting
   author: Brodie
   date: 1987-07-08
 - id: N009
-  status: missing
   title: Liaison with TC97/SC21
   author: SC22 Secretariat
   date: 1987-06-06
 - id: N008
-  status: missing
   title: Letter to Follett
   author: Plauger
   date: 1987-06-02
 - id: N007
-  status: missing
   title: Letter to Boldyreff
   author: Streeter
   date: 1987-06-02
 - id: N006
-  status: missing
   title: Comments on the Preprocessor
   author: Boldyreff
   date: 1987-06-02
 - id: N005
-  status: missing
   title: Comments from BSI
   author: Boldyreff
   date: 1987-06-02
 - id: N004
-  status: missing
   title: Comments from Netherlands C Committee
   author: Keizer
   date: 1987-04-09
 - id: N003
-  status: missing
   title: Voting on Draft Proposal SC22/N260
   author: Follett
   date: 1987-04-02
 - id: N002
-  status: missing
   title: Agenda for 11 Jun 87 Meeting
   author: Plauger
   date: 1987-05-11
 - id: N001
-  status: missing
   title: Minutes of 10 Sep 86 Meeting
   author: Boldyreff
   date: 1986-09-11
