@@ -14,10 +14,14 @@
       },
       {
         "properties": {
-          "url": { "type": "string", "format": "uri" }
+          "url": { "type": "string", "format": "uri" },
+          "mirror": { "type": "string", "format": "uri" }
         },
         "additionalProperties": false,
-        "required": ["url"]
+        "anyOf": [
+          { "required": ["url"] },
+          { "required": ["mirror"] }
+        ]
       }
     ]
   },

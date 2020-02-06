@@ -25,7 +25,7 @@ const canonicalDocumentId = id => {
 const redirects = {};
 
 // Add all of the document files.
-for (let { id, url, status } of docs) {
+for (let { id, url, mirror, status } of docs) {
   const redirect = {};
 
   id = canonicalDocumentId(id);
@@ -43,6 +43,7 @@ for (let { id, url, status } of docs) {
     // Document file is found.
     assert(status === "found" || status === "protected");
     redirect.url = url;
+    redirect.mirror = mirror;
   }
 
   assert(redirects[id] === undefined, `duplicate ID found: ${id}`);
@@ -54,10 +55,7 @@ for (let [from, to] of Object.entries(alias)) {
   from = from.toLowerCase();
   to = canonicalDocumentId(to);
   const redirect = redirects[to];
-  assert(redirect !== undefined);
-  assert(redirect.url !== undefined);
-  assert(redirects[from] === undefined);
-  redirects[from] = { url: redirect.url };
+  redirects[from] = { url: redirect.url, mirror: redirect.mirror };
 }
 
 // Write the redirect file.

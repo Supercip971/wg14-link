@@ -66,13 +66,10 @@ app.get("/:id([a-zA-Z0-9]+)", (req, res, next) => {
     // Known ID but is unassigned.
     next(createError(404, "unassigned document ID"));
   } else {
-    // Known ID for redirection.
-    assert(redirect.url);
-    res
-      .writeHead(303, {
-        Location: redirect.url,
-      })
-      .end();
+    // Known ID for redirection. Use mirror if we have it.
+    const url = redirect.mirror || redirect.url;
+    assert(url);
+    res.writeHead(303, { Location: url }).end();
   }
 });
 

@@ -1492,9 +1492,9 @@
   title: proposed document C17
   author: Gustedt
   date: 2017-10-09
-# We use this archived copy of the N2176 file because the one on the WG14 site
-# is password protected.
-  url: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
+  # Note this official link is password protected so we use the archived mirror.
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2176.pdf
+  mirror: https://web.archive.org/web/20181230041359if_/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf
 - id: N2175
   title: Syntax proposal for attributes in C2x
   author: Gustedt
