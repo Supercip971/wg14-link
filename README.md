@@ -1,7 +1,10 @@
-# [wg14.link]
-> unofficial ISO C (WG14) redirect service
+# wg14.link
 
-It's like [wg21.link] except for C and with less features!
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/LynnKirby/wg14-link/Continuous%20Integration/master?style=flat-square)](https://github.com/LynnKirby/wg14-link/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)
+[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue?style=flat-square)](./COPYING.txt)
+
+This is the source code for [wg14.link], an unofficial ISO C (WG14) redirect
+service. It's like [wg21.link] except for C and with less features!
 
 ## How it works
 
@@ -20,6 +23,23 @@ Express application (`app.js`) consumes.
 ### Infrastructure
 
 Hosted on Heroku with DNS and caching by Cloudflare.
+
+## Contributing
+
+### Running locally
+
+```sh
+# Get source and dependencies
+git clone https://github.com/LynnKirby/wg14-link
+cd wg14-link
+npm install
+
+# Build runtime data
+npm run build
+
+# Start local development server
+npm run dev
+```
 
 ## License
 
