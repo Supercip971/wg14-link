@@ -2430,7 +2430,7 @@
   title: Request Formal Letter of Invitation from BSI for VISA
   author: Pygott
   date: 2015-11-22
-  url: n1984.docx
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1984.docx
 - id: N1983
   title: Hotels and Travel Directions to BSI
   author: Pygott
@@ -6789,7 +6789,7 @@
 - id: N1112
   title: Summary of Voting on SC 22 N3838
   author: Seitz
-  date: 2005-Mat-21
+  date: 2005-03-21
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1112.htm
 - id: N1111
   title: An Analysis of the Issue Raised by DR 236
