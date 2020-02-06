@@ -77,6 +77,10 @@ const itShouldValidateAgainstSchema = (dataPath, schemaPath) => {
 // Tests.
 //
 
+// Limits certain tests because we know that documents past that haven't been
+// reviewed and will definitely cause test failures.
+const lastReviewedDocument = 250;
+
 describe("build/redirect.json", () => {
   itShouldValidateAgainstSchema("build/redirect.json", "schema/redirect.json");
 });
@@ -94,7 +98,12 @@ describe("data/alias.yml", () => {
   });
 });
 
+describe("data/authors.yml", () => {
+  itShouldValidateAgainstSchema("data/authors.yml", "schema/authors.json");
+});
+
 describe("data/documents.yml", () => {
+  const authors = readDataFile("data/authors.yml");
   const docs = readDataFile("data/documents.yml");
 
   itShouldValidateAgainstSchema("data/documents.yml", "schema/documents.json");
@@ -111,5 +120,23 @@ describe("data/documents.yml", () => {
     }
 
     expect(Array.from(duplicates)).toEqual([]);
+  });
+
+  // Note this test also validates authors.yml
+  it("has a 1:1 mapping to authors in authors.yml", () => {
+    const allAuthors = new Set();
+
+    for (let { id, author } of docs) {
+      const n = Number.parseInt(id.substring(1), 10);
+      if (n > lastReviewedDocument) continue;
+
+      if (typeof(author) === "string") {
+        allAuthors.add(author);
+      } else {
+        author.forEach(x => allAuthors.add(x));
+      }
+    }
+
+    expect(Array.from(allAuthors).sort()).toEqual(Object.keys(authors).sort());
   });
 });
