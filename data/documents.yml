@@ -9918,18 +9918,19 @@
   date: 1995-12-12
 - id: N499
   status: missing
-  title: 'RP: long long'
+  title: long long
   author: Hartinger
   date: 1995-12-12
 - id: N498
   status: missing
-  title: 'RP: Unnamed Structure/Union Members'
+  title: Unnamed Structure/Union Members
   author: Thompson
   date: 1995-11-29
 - id: N497
   title: Issues Affecting a long long Data Type
   author: Keaton
   date: 1995-11-23
+  issued: 1995-12-22
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n497.htm
 - id: N496
   title: Compound Literals
@@ -9937,11 +9938,13 @@
   - Prosser
   - Keaton
   date: 1995-11-23
+  issued: 1995-12-22
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n496.pdf
 - id: N495
   title: Initializer Repetition Counts
   author: Keaton
   date: 1995-11-23
+  issued: 1995-12-22
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n495.pdf
 - id: N494
   title: Designated Initializers
@@ -9949,6 +9952,7 @@
   - Prosser
   - Keaton
   date: 1995-11-23
+  issued: 1995-12-08
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n494.pdf
 - id: N493
   status: missing
@@ -9967,25 +9971,36 @@
   date: 1995-11-16
 - id: N490
   status: missing
-  title: Language Independent Datatypes
-  author: ISO/IEC DIS 11404
+  title: >
+    Information technology --
+    Programming languages, their environments and system software interfaces --
+    Language-independent datatypes
+  author: ISO/IEC
+  number: ISO/IEC DIS 11404
   date: 1995-11-16
 - id: N489
   status: missing
-  title: Language Independent Procedure Calling
-  author: ISO/IEC 13886
+  title: Information technology -- Language-Independent Procedure Calling (LIPC)
+  author: ISO/IEC
+  number: ISO/IEC DIS 13886
   date: 1995-11-16
-# FIXME: Unknown author
 - id: N488
   status: missing
-  title: ISO/IEC 10967-2, Language Independent Arithmetic, Part
-  author: unknown
+  title: >
+    Information technology -- Language independent arithmetic --
+    Part 2: Elementary numerical functions
+  author: ISO/IEC
+  number: ISO/IEC 10967-2:1994
+  issued: 1994
   date: 1995-11-16
-# FIXME: Unknown author
 - id: N487
   status: missing
-  title: ISO/IEC 10967-1, Language Independent Arithmetic, Part
-  author: unknown
+  title: >
+    Information technology -- Language independent arithmetic --
+    Part 1: Integer and floating point arithmetic
+  author: ISO/IEC
+  number: ISO/IEC 10967-1:1994
+  issued: 1994
   date: 1995-11-16
 - id: N486
   status: missing
@@ -9994,7 +10009,7 @@
   date: 1995-10-16
 - id: N485
   status: missing
-  title: 'RP: Adding Bool Type'
+  title: Adding Bool Type
   author: Plum
   date: 1995-10-16
 - id: N484
@@ -10004,6 +10019,7 @@
   date: 1995-10-16
 - id: N483
   status: missing
+  # Some alpha (pre first edition) version of the spec
   title: Java Language Specification
   author: Sun
   date: 1995-10-16
@@ -10014,22 +10030,22 @@
   date: 1995-10-16
 - id: N481
   status: missing
-  title: 'RP: Adding // Comments'
+  title: Adding // Comments
   author: Gwyn
   date: 1995-10-16
 - id: N480
   status: missing
-  title: 'RP: Function Literals'
+  title: Function Literals
   author: Long
   date: 1995-10-16
 - id: N479
   status: missing
-  title: 'RP: wchar_t as a Keyword'
+  title: wchar_t as a Keyword
   author: Plum
   date: 1995-10-16
 - id: N478
   status: missing
-  title: 'RP: Machine Characteristics Macros'
+  title: Machine Characteristics Macros
   author: Tribble
   date: 1995-10-16
 - id: N477
@@ -10191,22 +10207,25 @@
   author: Homer
   date: 1995-08-23
 - id: N447
-  title: 'Classes in C, Part 4: Constructors and Destructors'
+  title: 'Classes in C - Part 4: Constructors and Destructors'
   author: Jervis
   date: 1995-08-22
+  issued: 1995-08-19
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n447.txt
 - id: N446
-  title: 'Classes in C, Part 3: Virtual Functions'
+  title: 'Classes in C - Part 3: Virtual Functions'
   author: Jervis
   date: 1995-08-22
+  issued: 1995-08-19
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n446.txt
 - id: N445
-  title: 'Classes in C, Part 2: Inheritance'
+  title: 'Classes in C - Part 2: Inheritance'
   author: Jervis
   date: 1995-08-22
+  issued: 1995-04-25
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n445.txt
 - id: N444
-  title: C9X Revision Charter (Revised)
+  title: The C9X Charter
   author: Jaeschke
   date: 1995-08-04
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n444.htm
@@ -10277,12 +10296,12 @@
   date: 1995-06-12
 - id: N430
   status: missing
-  title: 'RP: Replacement for sprintf'
+  title: Replacement for sprintf
   author: Bostic
   date: 1995-06-12
 - id: N429
   status: missing
-  title: 'RP: Replacement for strtok'
+  title: Replacement for strtok
   author: Bostic
   date: 1995-06-12
 - id: N428
@@ -10291,9 +10310,10 @@
   author: Farance
   date: 1995-06-12
 - id: N427
-  title: 'RP: Nonzero Default Initial Values'
+  title: Nonzero Default Initial Values
   author: Keaton
   date: 1995-06-12
+  issued: 1995-05-29
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n427.htm
 - id: N426
   status: missing
@@ -10306,14 +10326,16 @@
   author: Plauger
   date: 1995-06-12
 - id: N424
-  title: 'RP: Classes in C, Part 1'
+  title: 'Classes in C - Part 1: Basic Classes'
   author: Jervis
   date: 1995-06-12
+  issued: 1995-04-21
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/historic/n424.txt
 - id: N423
-  title: Technical Corrigendum 1 (Official!)
+  title: Technical Corrigendum 1 for ISO/IEC 9899:1990 (Programming Language C)
   author: ISO/IEC
   date: 1995-05-01
+  issued: 1995-02
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n423.pdf
 - id: N422
   status: missing
@@ -10332,27 +10354,27 @@
   date: 1995-02-07
 - id: N419
   status: missing
-  title: 'RP: Addition of Predefined Identifier __FUNC__'
+  title: Addition of Predefined Identifier __FUNC__
   author: Tribble
   date: 1995-01-23
 - id: N418
   status: missing
-  title: 'RP: Allow Empty Arguments in Macro Replacement'
+  title: Allow Empty Arguments in Macro Replacement
   author: Tydeman
   date: 1995-01-09
 - id: N417
   status: missing
-  title: 'RP: String Classification and Conversion Functions'
+  title: String Classification and Conversion Functions
   author: Lemings
   date: 1995-01-26
 - id: N416
   status: missing
-  title: 'RP: Sufficient Interest in Boolean Type?'
+  title: Sufficient Interest in Boolean Type?
   author: Lemings
   date: 1994-12-30
 - id: N415
   status: missing
-  title: 'RP: Improved Random Number Guidelines'
+  title: Improved Random Number Guidelines
   author: Jones
   date: 1995-02-18
 - id: N414
@@ -10416,8 +10438,10 @@
   author: Jaeschke
   date: 1995-04-17
 - id: N402
-  title: Review of C++ Draft
-  author: Plauger
+  title: >
+    Review by SC22/WG14 of Programming Language of C++ Draft
+    Presented for CD Registration
+  author: WG14
   date: 1995-02-01
   url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n402.pdf
 - id: N401
@@ -10593,7 +10617,9 @@
 - id: N367
   status: missing
   title: Future Directions for C
-  author: Glassboro
+  # Original name was missing the W. I assume Glassboro is the Glassborow
+  # that submitted other documents.
+  author: Glassborow
   date: 1994-07-27
 - id: N366
   status: missing
@@ -10702,23 +10728,41 @@
 - id: N346
   status: missing
   title: Revising Standard C
+  journal: The Journal of C Language Translation
   author: Plauger
   date: 1994-04-30
+  issued: 1994-03
+  page: 127-133
+  volume: 5
+  issue: 1
 - id: N345
   status: missing
   title: ALEF Language Reference Manual
+  book: "The Plan 9 Programmer's Manual"
+  publisher: AT&T Bell Laboratories
+  place: Murray Hill, N.J.
   author: Winterbottom
   date: 1994-04-05
+  issued: 1993
+  mirror: https://swtch.com/~rsc/thread/alef.pdf
 - id: N344
   status: missing
   title: How to Use the Plan 9 C Compiler
+  book: "The Plan 9 Programmer's Manual"
+  publisher: AT&T Bell Laboratories
+  place: Murray Hill, N.J.
   author: Pike
   date: 1994-04-05
+  issued: 1992
+  mirror: https://plan9.io/sys/doc/comp.html
 - id: N343
   status: missing
   title: A New C Compiler
+  journal: Proceedings of the Summer 1990 UKUUG Conf.
   author: Thompson
   date: 1994-04-05
+  issued: 1990
+  mirror: http://doc.cat-v.org/bell_labs/new_c_compilers/new_c_compiler.pdf
 - id: N342
   status: missing
   title: Agenda for Jun 94 X3J11 Meeting in San Jose
@@ -10736,9 +10780,16 @@
   date: 1994-04-29
 - id: N339
   status: missing
-  title: Issues Regarding Imaginary Types for C and
-  author: Thomas
+  title: Issues Regarding Imaginary Types for C and C++
+  journal: The Journal of C Language Translation
+  author:
+  - Thomas
+  - Coonen
   date: 1994-04-23
+  issued: 1994-03
+  page: 134-138
+  volume: 5
+  issue: 1
 - id: N338
   status: missing
   title: A Rationale for Floating-Point C Extensions
@@ -10877,7 +10928,7 @@
 - id: N311
   status: missing
   title: Numerical Extensions to ANSI C in CH
-  author: Chen
+  author: Cheng
   date: 1993-11-30
 - id: N310
   status: missing
@@ -10923,7 +10974,7 @@
   date: 1993-12-01
 - id: N302
   status: missing
-  title: Designated Initializers and Compund Literals
+  title: Designated Initializers and Compound Literals
   author: Prosser
   date: 1993-12-01
 - id: N301

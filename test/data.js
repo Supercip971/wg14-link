@@ -79,7 +79,7 @@ const itShouldValidateAgainstSchema = (dataPath, schemaPath) => {
 
 // Limits certain tests because we know that documents past that haven't been
 // reviewed and will definitely cause test failures.
-const lastReviewedDocument = 250;
+const lastReviewedDocument = 500;
 
 describe("build/redirect.json", () => {
   itShouldValidateAgainstSchema("build/redirect.json", "schema/redirect.json");

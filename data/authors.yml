@@ -4,70 +4,122 @@
 # Unknown given name:                `Family ||`
 # Institution or other literal name: `Foobar`
 
-# ISO groups
+# ISO-related groups
 ISO: ISO
+ISO/IEC: ISO/IEC
 SC2/WG2: ISO JTC1/SC2/WG2 # Unicode
 SC22 Secretariat: SC22 Secretariat
-SC22: ISO JTC1/SC22
-WG14: ISO JTC1/SC22/WG14 # ISO C
-WG21: ISO JTC1/SC22/WG21 # ISO C++
+SC22: ISO/IEC JTC1/SC22
+WG14: ISO/IEC JTC1/SC22/WG14 # ISO C
+WG20: ISO/IEC JTC1/SC22/WG20 # Internationalization
+WG21: ISO/IEC JTC1/SC22/WG21 # ISO C++
 
 # Other organizations
 AFNOT: AFNOT
 ANSI: ANSI
 BSI C Panel: BSI C Panel
+BSI: British Standards Institution
+CBEMA: CBEMA
 Danish C Panel: Danish C Panel
 Danish Standards: Danish Standards
 ITSCJ: ITSCJ
+Sun: Sun
+X3: ANSI X3
 X3J11: X3J11
+X3J11.1: X3J11.1
 
 # Individuals
+Arnold: Arnold ||
+Barra: Barra || # Lynn?
+Benito: Benito || John
 Boldyreff: Boldyreff || Cornelia
-Bourstin: Bourstin || C.
+Bostic: Bostic || Keith
+Bourstin: Bourstin || Claude L.
 Brodie: Brodie || Jim
 Carter: Carter || Steve
 Chacón: Chacón ||
+Cheng: Cheng || Harry H.
+Coonen: Coonen || Jeremy T.
 Cordsen: Cordsen || Peter
 Cota: Cota ||
 Côté: Côté || Joseph # Reasonable guess. SC22 secretariat from 1985-94.
+Degener: Degener || Jutta
 Dunlop: Dunlop || Dominic
 Farance: Farance || Frank
 Feather: Feather || Clive
 Follett: Follett || Bob # Reasonable guess. SC22 chair from 1989-99.
 Fukutomi: Fukutomi || Hiroshi
+Gentleman: Gentleman || # Robert?
+Glassborow: Glassborow || Francis
+Gradwell: Gradwell || # David J.L.?
+Guilmette: Guilmette || Ron
 Gwyn: Gwyn || Douglas A.
+Hartinger: Hartinger || Roland
+Hatcher: Hatcher ||
 Homer: Homer || Bill
 Hopper: Hopper || Keith
 Inose: Inose || Takehisa
 Jaeschke: Jaeschke || Rex
 Jameson: Jameson || # Scott?
+Jervis: Jervis || Robert
 Joloboff: Joloboff || # Vania?
 Jones: Jones || Larry
 # JonesDerek: Jones || Derek
 Joslin: Joslin || # David?
+Keaton: Keaton || David
 Keizer: Keizer || Ed
+Knaak: Knaak || # David?
 Korpela: Korpela || # Jukka?
 Kumagai: Kumagai || Norihiro
+Kuroda: Kuroda ||
+Kwan: Kwan || John W.
 Larsen: Larsen ||
+Lemings: Lemings || Eric
 Lenkov: Lenkov || Dmitry # Reasonable guess. First standard C++ chair.
+Long: Long || # Paul?
+Maas: Maas || Michelle
+MacDonald: MacDonald || Tom
 Maclaren: Maclaren || Nick # Reasonable guess. Former WG14 member
 Martin: Martin || Neil
 McKean: McKean || # Roy?
+Meissner: Meissner || # Michael ?
+Metsky: Metsky ||
+Meyer: Meyer || # Randy? There's a Randy later but N358 is devoid of info.
+Meyers: Meyers || Randy
+Molenda: Molenda || # Pawel?
 Nakata: Nakata || # Ikuo?
 Noda: Noda || Makoto
+Pepperdine: Pepperdine || # Andy?
+Pike: Pike || Rob
 Plauger: Plauger || P.J. # Also goes by Bill
 Plum: Plum || Tom
 Prosser: Prosser || David
 Rabin: Rabin || # Paul?
+Rinehuls: Rinehuls || William C.
+Rogers: Rogers || # Patrick?
+Rugolsky: Rugolsky || William
 Saitoh: Saitoh || Akio # Reasonable guess. IPSJ/ITSCJ secretary and hosted first SC22 meeting in Japan
+Schaffert: Schaffert || Craig
 Simonsen: Simonsen || Keld
 SimonsenKarl: Simonsen || Karl
+Stanberry: Stanberry || Linda
 Streeter: Streeter ||
+Stride: Stride ||
 Stroustrop: Stroustrop || Bjarne
 Suehiro: Suehiro || Yoichi
 Tandering: Tandering ||
 Terrazas: Terrazas || Mike # Reasonable guess. X3J11 committee member 1986-90
 Terry: Terry || Donn
 Thomas: Thomas || Jim
+Thompson: Thompson || Ken
+Tribble: Tribble || David R.
+Tydeman: Tydeman || Fred J.
+Vago: Vago || Monica
 van Brummen: van Brummen || # John?
+Vermeulen: Vermeulen || # Mike?
+Walls: Walls || Douglas
+Weidenhofer: Weidenhofer || Neil
+Winterbottom: Winterbottom || Phil
+Yu: Yu ||
 Zappa: Zappa || # Francesco?
+Ziebell: Ziebell || Jonathan

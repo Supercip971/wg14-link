@@ -1,9 +1,30 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://wg14.link/schema/documents.json",
+  "definitions": {
+    "date": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9]{4}(-[0-9]{2}){0,2}$"
+        },
+        {
+          "type": "integer",
+          "minimum": 1980
+        }
+      ]
+    },
+    "stringOrInteger": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "integer" }
+      ]
+    }
+  },
   "type": "array",
   "items": {
     "type": "object",
+    "additionalProperties": false,
     "properties": {
       "id": {
         "type": "string",
@@ -16,11 +37,19 @@
           { "type": "array", "items": { "type": "string" }}
         ]
       },
-      "date": {
-        "type": "string",
-        "pattern": "^[0-9]{4}-[0-9]{2}(-[0-9]{2})?$"
-      },
-      "url": { "type": "string", "format": "uri" }
+      "date": { "$ref": "#/definitions/date" },
+      "issued": { "$ref": "#/definitions/date" },
+      "url": { "type": "string", "format": "uri" },
+      "mirror": { "type": "string", "format": "uri" },
+      "number": { "type": "string" },
+      "publisher": { "type": "string" },
+      "place": { "type": "string" },
+      "journal": { "type": "string" },
+      "book": { "type": "string" },
+      "page": { "$ref": "#/definitions/stringOrInteger" },
+      "volume": { "$ref": "#/definitions/stringOrInteger" },
+      "issue": { "$ref": "#/definitions/stringOrInteger" },
+      "status": { "type": "string" }
     },
     "required": ["id"],
     "oneOf": [
