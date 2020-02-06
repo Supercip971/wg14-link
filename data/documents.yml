@@ -1,3 +1,33 @@
+- id: N2477
+  title: Const functions
+  author: Alepins
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2477.pdf
+- id: N2476
+  title: Names and locations
+  author: Thomas
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2476.pdf
+- id: N2475
+  title: Why no wide string strfrom functions
+  author: Thomas
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2475.pdf
+- id: N2474
+  title: February 2020 CFP teleconference agenda
+  author: Thomas
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2474.pdf
+- id: N2473
+  title: January 2020 CFP teleconference minutes
+  author: Thomas
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2473.pdf
+- id: N2472
+  title: Adding Fundamental Type for N-bit Integers
+  author: Blower
+  date: 2020-02-04
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2472.pdf
 - id: N2471
   title: Stackable, thread local, signal guards
   author: Douglas
