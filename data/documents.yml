@@ -11269,7 +11269,7 @@
 - id: N233
   status: missing
   title: Procedures for Handling Defect Reports
-  author: JTC1/SC22
+  author: SC22
   date: 1992-09-30
 - id: N232
   status: missing
@@ -11334,7 +11334,7 @@
 - id: N220
   status: missing
   title: Comments on MSE N180R
-  author: Karl Simonsen
+  author: SimonsenKarl
   date: 1992-05-06
 - id: N219
   status: missing
@@ -11453,8 +11453,8 @@
   date: 1991-12-12
 - id: N196
   status: missing
-  title: Response to ISO 10646
-  author: Canada
+  title: Canada, Response to ISO 10646
+  author: WG14
   date: 1991-12-11
 - id: N195
   status: missing
@@ -11486,16 +11486,15 @@
   title: Locale Proposal
   author: Joloboff
   date: 1991-11-27
-# FIXME: Unknown author
 - id: N189
   status: missing
   title: WG21 Minutes on Digraphs
-  author: unknown
+  author: WG21
   date: 1991-12-11
 - id: N188
   status: missing
   title: Letter to Côté on Validation
-  author: Van Brummen
+  author: van Brummen
   date: 1991-09-02
 - id: N187
   status: missing
@@ -11507,11 +11506,10 @@
   title: WG14 E-mail to Date
   author: ITSCJ
   date: 1991-12-07
-# FIXME: Unknown author
 - id: N185
   status: missing
   title: UK Comments on MSE
-  author: unknown
+  author: WG14
   date: 1991-11-06
 - id: N184
   status: missing
@@ -11565,7 +11563,7 @@
   date: 1991-03-27
 - id: N174
   status: missing
-  title: Information on 11-13 Dec 91 WG14 Meeting in
+  title: Information on 11-13 Dec 91 WG14 Meeting in Milan
   author: Zappa
   date: 1991-05-20
 - id: N173
@@ -11586,7 +11584,7 @@
 - id: N170
   status: missing
   title: WG14 E-mail to Date
-  author: Various
+  author: WG14
   date: 1991-05-13
 - id: N169
   status: missing
@@ -11596,7 +11594,9 @@
 - id: N168
   status: missing
   title: Rationale for Changes on N145
-  author: Kumagai and Fukutomi
+  author:
+  - Kumagai
+  - Fukutomi
   date: 1991-04-23
 - id: N167
   status: missing
@@ -11681,7 +11681,7 @@
 - id: N151
   status: missing
   title: Verification of ISO 9899-C
-  author: Van Brummen
+  author: van Brummen
   date: 1990-11-26
 - id: N150
   status: missing
@@ -11815,17 +11815,15 @@
   title: Minutes of 18-19 Jun 90 WG14 Meeting
   author: Farance
   date: 1990-08-30
-# FIXME: Unknown author
 - id: N124
   status: missing
   title: Summary of Voting on DIS 9899
-  author: unknown
+  author: WG14
   date: 1990-08-08
-# FIXME: Unknown author
 - id: N123
   status: missing
   title: Excerpt from ISO DTR on Character Sets Used for Text
-  author: unknown
+  author: ISO
   date: 1990-06-18
 - id: N122
   status: missing
@@ -11844,7 +11842,7 @@
   date: 1990-06-18
 - id: N119
   status: missing
-  title: X3.159 1989 C Standard
+  title: ANSI X3.159-1989
   author: ANSI
   date: 1990-06-18
 - id: N118
@@ -11919,11 +11917,10 @@
   title: Change Summary for ANSI C Edits
   author: Prosser
   date: 1990-02-14
-# FIXME: Unknown author
 - id: N104
   status: missing
   title: ITSCJ Proposed Multibyte Support Extension
-  author: Prosser
+  author: ITSCJ
   date: 1990-01-11
 - id: N103
   status: missing
@@ -11950,11 +11947,10 @@
   title: Letter to Côté on DP9899 Comments
   author: Plauger
   date: 1989-10-10
-# FIXME: Unknown author
 - id: N098
   status: missing
   title: Resolution 129 from SC22 plenary
-  author: Plauger
+  author: SC22
   date: 1989-09-29
 - id: N097
   status: missing
@@ -12051,17 +12047,15 @@
   title: E-mail to Follett on BSI position
   author: Simonsen
   date: 1989-01-30
-# FIXME: Unknown author
 - id: N078
   status: missing
   title: Cover Letter for N058-N078 Mailing
-  author: unknown
+  author: WG14
   date: 1989-01-28
-# FIXME: Unknown author
 - id: N077
   status: missing
   title: Agenda for 10-11 Apr 89 Meeting
-  author: unknown
+  author: WG14
   date: 1989-01-28
 - id: N076
   status: missing
@@ -12115,7 +12109,7 @@
   date: 1988-11-18
 - id: N066
   status: missing
-  title: Response to Third Public Review
+  title: X3J11, Response to Third Public Review
   author: X3J11
   date: 1988-11-18
 - id: N065
@@ -12158,11 +12152,10 @@
   title: Minutes of Aug 88 Meeting of C Panel
   author: Boldyreff
   date: 1988-08-09
-# FIXME: Unknown author
 - id: N057
   status: missing
   title: Cover Letter for N046-N057 Mailing
-  author: unknown
+  author: WG14
   date: 1988-06-30
 - id: N056
   status: missing
@@ -12216,17 +12209,15 @@
   title: Minutes of Apr 88 X3J11 Meeting
   author: Plauger
   date: 1988-04-22
-# FIXME: Unknown author
 - id: N046
   status: missing
   title: Comments Received on DP9899-C
-  author: unknown
+  author: WG14
   date: 1988-04-05
-# FIXME: Unknown author
 - id: N045
   status: missing
   title: Cover Letter for N037-N045 Mailing
-  author: unknown
+  author: WG14
   date: 1988-03-31
 - id: N044
   status: missing
@@ -12265,8 +12256,8 @@
   date: 1988-01-20
 - id: N037
   status: missing
-  title: Second Public Review
-  author: X3 News Release
+  title: X3 News Release, Second Public Review
+  author: ANSI
   date: 1988-01-15
 - id: N036
   status: missing
@@ -12363,17 +12354,15 @@
   title: Minutes of Jun 87 X3J11 Meeting
   author: Plauger
   date: 1987-06-12
-# FIXME: Unknown author
 - id: N017
   status: missing
   title: Working Draft
-  author: unknown
+  author: WG14
   date: 1987-06-01
-# FIXME: Unknown author
 - id: N016
   status: missing
   title: Response to Japanese Comments
-  author: unknown
+  author: WG14
   date: 1987-08-01
 - id: N015
   status: missing

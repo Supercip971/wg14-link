@@ -1,0 +1,73 @@
+# The values in this file use citeproc.js's "cheater syntax" for names.
+#
+# Most individuals:                  `Family || Given Names...`
+# Unknown given name:                `Family ||`
+# Institution or other literal name: `Foobar`
+
+# ISO groups
+ISO: ISO
+SC2/WG2: ISO JTC1/SC2/WG2 # Unicode
+SC22 Secretariat: SC22 Secretariat
+SC22: ISO JTC1/SC22
+WG14: ISO JTC1/SC22/WG14 # ISO C
+WG21: ISO JTC1/SC22/WG21 # ISO C++
+
+# Other organizations
+AFNOT: AFNOT
+ANSI: ANSI
+BSI C Panel: BSI C Panel
+Danish C Panel: Danish C Panel
+Danish Standards: Danish Standards
+ITSCJ: ITSCJ
+X3J11: X3J11
+
+# Individuals
+Boldyreff: Boldyreff || Cornelia
+Bourstin: Bourstin || C.
+Brodie: Brodie || Jim
+Carter: Carter || Steve
+Chacón: Chacón ||
+Cordsen: Cordsen || Peter
+Cota: Cota ||
+Côté: Côté || Joseph # Reasonable guess. SC22 secretariat from 1985-94.
+Dunlop: Dunlop || Dominic
+Farance: Farance || Frank
+Feather: Feather || Clive
+Follett: Follett || Bob # Reasonable guess. SC22 chair from 1989-99.
+Fukutomi: Fukutomi || Hiroshi
+Gwyn: Gwyn || Douglas A.
+Homer: Homer || Bill
+Hopper: Hopper || Keith
+Inose: Inose || Takehisa
+Jaeschke: Jaeschke || Rex
+Jameson: Jameson || # Scott?
+Joloboff: Joloboff || # Vania?
+Jones: Jones || Larry
+# JonesDerek: Jones || Derek
+Joslin: Joslin || # David?
+Keizer: Keizer || Ed
+Korpela: Korpela || # Jukka?
+Kumagai: Kumagai || Norihiro
+Larsen: Larsen ||
+Lenkov: Lenkov || Dmitry # Reasonable guess. First standard C++ chair.
+Maclaren: Maclaren || Nick # Reasonable guess. Former WG14 member
+Martin: Martin || Neil
+McKean: McKean || # Roy?
+Nakata: Nakata || # Ikuo?
+Noda: Noda || Makoto
+Plauger: Plauger || P.J. # Also goes by Bill
+Plum: Plum || Tom
+Prosser: Prosser || David
+Rabin: Rabin || # Paul?
+Saitoh: Saitoh || Akio # Reasonable guess. IPSJ/ITSCJ secretary and hosted first SC22 meeting in Japan
+Simonsen: Simonsen || Keld
+SimonsenKarl: Simonsen || Karl
+Streeter: Streeter ||
+Stroustrop: Stroustrop || Bjarne
+Suehiro: Suehiro || Yoichi
+Tandering: Tandering ||
+Terrazas: Terrazas || Mike # Reasonable guess. X3J11 committee member 1986-90
+Terry: Terry || Donn
+Thomas: Thomas || Jim
+van Brummen: van Brummen || # John?
+Zappa: Zappa || # Francesco?
