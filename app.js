@@ -1,11 +1,11 @@
 const assert = require("assert");
-const fs = require("fs");
-const path = require("path");
 const createError = require("http-errors");
-const express = require("express");
-const morgan = require("morgan");
-const process = require("process");
 const debug = require("debug")("wg14-link:app");
+const express = require("express");
+const fs = require("fs");
+const morgan = require("morgan");
+const path = require("path");
+const process = require("process");
 
 const app = express();
 
@@ -54,18 +54,25 @@ app.get("/:id([a-zA-Z0-9]+)", (req, res, next) => {
     next(createError(404, "page not found"));
   } else if (redirect.status === "missing") {
     // Known ID but is missing the document.
-    next(createError("404", "document file missing", {
-      description: "the document ID you provided is valid but we do not have a link to the document file. it has probably been lost to the sands of time...",
-    }));
+    next(
+      createError("404", "document file missing", {
+        description:
+          "the document ID you provided is valid but we do not have a link " +
+          "to the document file. it has probably been lost to the sands of " +
+          "time...",
+      })
+    );
   } else if (redirect.status === "unassigned") {
     // Known ID but is unassigned.
     next(createError(404, "unassigned document ID"));
   } else {
     // Known ID for redirection.
     assert(redirect.url);
-    res.writeHead(303, {
-      Location: redirect.url
-    }).end();
+    res
+      .writeHead(303, {
+        Location: redirect.url,
+      })
+      .end();
   }
 });
 

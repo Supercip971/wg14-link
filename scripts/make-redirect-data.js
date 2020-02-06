@@ -38,7 +38,7 @@ for (let { id, url, status } of docs) {
     redirect.status = status;
   } else {
     // Document file is found.
-    assert((status === "found") || (status === "protected"));
+    assert(status === "found" || status === "protected");
     redirect.url = url;
   }
 
