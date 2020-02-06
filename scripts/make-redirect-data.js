@@ -2,12 +2,15 @@ const assert = require("assert");
 const fs = require("fs");
 const path = require("path");
 const process = require("process");
-const yaml = require("js-yaml");
+const yaml = require("yaml");
 
 // Make things easy by always operating from the project root directory.
 process.chdir(path.join(__dirname, "../"));
 
-const readData = filename => yaml.load(fs.readFileSync(filename), { filename });
+const readData = filename => {
+  const file = fs.readFileSync(filename, { encoding: "utf8" });
+  return yaml.parse(file, { schema: "failsafe" });
+};
 
 const docs = readData("data/documents.yml");
 const alias = readData("data/alias.yml");
