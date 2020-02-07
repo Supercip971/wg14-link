@@ -24,15 +24,15 @@ expect.extend({
     if (pass) {
       return {
         message: () =>
-          `expected ${this.utils.printReceived(received)} not to be contained `+
-          `in object ${expectedText}`,
+          `expected ${this.utils.printReceived(received)} not to be ` +
+          `contained in object ${expectedText}`,
         pass: true,
       };
     } else {
       return {
         message: () =>
-          `expected ${this.utils.printReceived(received)} to be contained ` +
-          `in object ${expectedText}`,
+          `expected ${this.utils.printReceived(received)} to be ` +
+          `contained in object ${expectedText}`,
         pass: false,
       };
     }
@@ -130,7 +130,7 @@ describe("data/documents.yml", () => {
       const n = Number.parseInt(id.substring(1), 10);
       if (n > lastReviewedDocument) continue;
 
-      if (typeof(author) === "string") {
+      if (typeof author === "string") {
         allAuthors.add(author);
       } else {
         author.forEach(x => allAuthors.add(x));
