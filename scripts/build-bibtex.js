@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const process = require("process");
 
@@ -14,12 +14,12 @@ const {
 process.chdir(path.join(__dirname, "../"));
 
 // Prepare data.
-fs.mkdirSync("build/public", { recursive: true });
+fs.mkdirpSync("build/public");
 const rawAuthors = parseDataFileSync("data/authors.yml");
 const docs = parseDataFileSync("data/documents.yml");
 
 // Escape string for LaTeX.
-const escape = str => str;
+const escape = str => str.replace(/"/g, `\\"`);
 
 // Parse author file into CSL JSON.
 const authorMap = {};
@@ -80,14 +80,14 @@ for (const doc of docs) {
     props.push(`howpublished = "\\url{https://wg14.link/${id.toLowerCase()}}"`);
   }
 
-  props.push(`publisher = "WG14`);
+  props.push(`publisher = "WG14"`);
 
-  const cite = `@misc{${id}\n\t${props.join(",\n\t")}\n}`;
+  const cite = `@misc{${id},\n\t${props.join(",\n\t")}\n}`;
   fs.writeFileSync(`build/public/${id}.bib`, cite);
   references.push({ id, cite });
 }
 
-console.log("build/public/N*.bib files have been written");
+console.log("build-bibtex.js: wrote BibTeX citations");
 
 // Write the index file.
 references.sort(
@@ -95,4 +95,4 @@ references.sort(
 );
 const indexFile = references.map(x => x.cite).join("\n\n");
 fs.writeFileSync("build/public/index.bib", indexFile);
-console.log("build/public/index.bib has been written");
+console.log("build-bibtex.js: wrote BibTeX bibliography");

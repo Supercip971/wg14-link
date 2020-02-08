@@ -1,5 +1,9 @@
-const { parseDataFileSync } = require("../util");
+const { parseDataFile } = require("../util");
 const path = require("path");
+const process = require("process");
+
+// Ensure we are running from project root.
+process.chdir(path.join(__dirname, "../"));
 
 //
 // Matchers
@@ -45,20 +49,21 @@ expect.extend({
 
 const dataFileCache = {};
 
-const readDataFile = dataPath => {
+const readDataFile = async dataPath => {
   const cached = dataFileCache[dataPath];
   if (cached !== undefined) return cached;
 
-  const relDataPath = path.join(__dirname, "../", dataPath);
-  const data = parseDataFileSync(relDataPath);
+  const data = await parseDataFile(dataPath);
   dataFileCache[dataPath] = data;
   return data;
 };
 
 const itShouldValidateAgainstSchema = (dataPath, schemaPath) => {
-  it("should validate against schema", () => {
-    const schema = require(`../${schemaPath}`);
-    const data = readDataFile(dataPath);
+  it("should validate against schema", async () => {
+    const [schema, data] = await Promise.all([
+      readDataFile(schemaPath),
+      readDataFile(dataPath),
+    ]);
     expect(data).toMatchSchema(schema);
   });
 };
@@ -76,14 +81,14 @@ describe("build/routes.json", () => {
 });
 
 describe("data/alias.yml", () => {
-  const alias = readDataFile("data/alias.yml");
-  const docs = readDataFile("data/documents.yml");
+  const aliasP = readDataFile("data/alias.yml");
+  const docsP = readDataFile("data/documents.yml");
 
   itShouldValidateAgainstSchema("data/alias.yml", "schema/alias.json");
 
-  it("should redirect to existing document ID", () => {
-    for (let id of Object.values(alias)) {
-      expect({ id }).toBeContainedInObject(docs, "data/documents.yml");
+  it("should redirect to existing document ID", async () => {
+    for (let id of Object.values(await aliasP)) {
+      expect({ id }).toBeContainedInObject(await docsP, "data/documents.yml");
     }
   });
 });
@@ -93,16 +98,16 @@ describe("data/authors.yml", () => {
 });
 
 describe("data/documents.yml", () => {
-  const authors = readDataFile("data/authors.yml");
-  const docs = readDataFile("data/documents.yml");
+  const authorsP = readDataFile("data/authors.yml");
+  const docsP = readDataFile("data/documents.yml");
 
   itShouldValidateAgainstSchema("data/documents.yml", "schema/documents.json");
 
-  it("has unique IDs", () => {
+  it("has unique IDs", async () => {
     const seen = new Set();
     const duplicates = new Set();
 
-    for (let { id } of docs) {
+    for (let { id } of await docsP) {
       if (seen.has(id)) {
         duplicates.add(id);
       }
@@ -113,10 +118,10 @@ describe("data/documents.yml", () => {
   });
 
   // Note this test also validates authors.yml
-  it("has a 1:1 mapping to authors in authors.yml", () => {
+  it("has a 1:1 mapping to authors in authors.yml", async () => {
     const allAuthors = new Set();
 
-    for (let { id, author } of docs) {
+    for (let { id, author } of await docsP) {
       const n = Number.parseInt(id.substring(1), 10);
       if (n > lastReviewedDocument) continue;
 
@@ -127,6 +132,8 @@ describe("data/documents.yml", () => {
       }
     }
 
-    expect(Array.from(allAuthors).sort()).toEqual(Object.keys(authors).sort());
+    expect(Array.from(allAuthors).sort()).toEqual(
+      Object.keys(await authorsP).sort()
+    );
   });
 });

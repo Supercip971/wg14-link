@@ -1,5 +1,5 @@
 const assert = require("assert");
-const fs = require("fs");
+const fs = require("fs-extra");
 const yaml = require("yaml");
 
 // Canonicalize document ID.
@@ -25,14 +25,27 @@ module.exports.canonicalDocumentId = id => {
 };
 
 // Slurp a JSON or YAML file.
-module.exports.parseDataFileSync = filename => {
+module.exports.parseDataFile = async filename => {
   if (filename.endsWith(".json")) {
-    const file = fs.readFileSync(filename, { encoding: "utf8" });
-    return JSON.parse(file);
+    return await fs.readJson(filename);
   }
 
   if (filename.endsWith(".yml") || filename.endsWith(".yaml")) {
-    const file = fs.readFileSync(filename, { encoding: "utf8" });
+    const file = await fs.readFile(filename, { encoding: "utf8" });
+    return yaml.parse(file, { schema: "failsafe" });
+  }
+
+  throw new Error(`Unknown data file type of ${filename}.`);
+};
+
+// Slurp a JSON or YAML file synchronously.
+module.exports.parseDataFileSync = filename => {
+  if (filename.endsWith(".json")) {
+    return fs.readJsonSync(filename);
+  }
+
+  if (filename.endsWith(".yml") || filename.endsWith(".yaml")) {
+    const file = fs.readFileSync(filename, "utf8");
     return yaml.parse(file, { schema: "failsafe" });
   }
 
