@@ -12,10 +12,10 @@ const {
 // Make things easy by always operating from the project root directory.
 process.chdir(path.join(__dirname, "../"));
 
-const docs = parseDataFileSync("data/documents.yml");
-const alias = parseDataFileSync("data/alias.yml");
+const docs = parseDataFileSync("data/documents.yaml");
+const alias = parseDataFileSync("data/alias.yaml");
 
-const rawAuthors = parseDataFileSync("data/authors.yml");
+const rawAuthors = parseDataFileSync("data/authors.yaml");
 const authorMap = {};
 
 for (let id of Object.keys(rawAuthors)) {

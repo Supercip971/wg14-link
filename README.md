@@ -15,8 +15,8 @@ checked by a GitHub actions workflow to notify us of any changes.
 
 ### Document data
 
-All documents are listed in `data/documents.yml`. Aliases (like `c99`) are
-listed in `data/alias.yml`. These files get parsed at build time to generate a
+All documents are listed in `data/documents.yaml`. Aliases (like `c99`) are
+listed in `data/alias.yaml`. These files get parsed at build time to generate a
 170 KB JSON data file that our Express application (`app.js`) consumes. Citation
 files in BibTeX and CSL-YAML format are also generated.
 

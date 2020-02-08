@@ -170,12 +170,16 @@ app.get("/:id([a-zA-Z0-9]+)", (req, res, next) => {
 });
 
 // Metadata route.
-app.get("/:file([Nn][0-9]+.(bib|ya?ml))", (req, res, next) => {
+app.get("/:file(([Nn][0-9]+|index).(bib|ya?ml))", (req, res, next) => {
   let [filename, ext] = req.params.file.split(".");
+  if (ext === "yml") ext = "yaml";
+
+  if (filename === "index") {
+    res.sendFile(path.join(__dirname, "build", "public", `index.${ext}`));
+    return;
+  }
+
   const id = canonicalDocumentId(filename);
-
-  if (ext === "yaml") ext = "yml";
-
   const route = routes[id];
 
   if (route === undefined) {

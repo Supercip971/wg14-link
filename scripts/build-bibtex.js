@@ -15,8 +15,8 @@ process.chdir(path.join(__dirname, "../"));
 
 // Prepare data.
 fs.mkdirpSync("build/public");
-const rawAuthors = parseDataFileSync("data/authors.yml");
-const docs = parseDataFileSync("data/documents.yml");
+const rawAuthors = parseDataFileSync("data/authors.yaml");
+const docs = parseDataFileSync("data/documents.yaml");
 
 // Escape string for LaTeX.
 const escape = str => str.replace(/"/g, `\\"`);

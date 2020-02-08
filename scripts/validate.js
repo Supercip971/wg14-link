@@ -9,9 +9,9 @@ const yaml = require("@stoplight/yaml");
 const { extractDocumentNumber, report } = require("../util");
 
 const paths = {
-  alias: "data/alias.yml",
-  authors: "data/authors.yml",
-  documents: "data/documents.yml",
+  alias: "data/alias.yaml",
+  authors: "data/authors.yaml",
+  documents: "data/documents.yaml",
   routes: "build/routes.json",
   bibtexIndex: "build/public/index.bib",
 };
@@ -215,10 +215,9 @@ const lastReviewedDocument = 500;
 const aliasShouldHaveValidRedirects = (alias, documents) => {
   for (const [from, to] of Object.entries(alias.data)) {
     const doc = documents.data.find(x => x.id === to);
-    if (doc === undefined) {
-      const { line, column } = getYamlLocation(alias, [from]);
-      report(paths.alias, `'${to}' not present in documents.yml`, line, column);
-    }
+    if (doc !== undefined) continue;
+    const { line, column } = getYamlLocation(alias, [from]);
+    report(paths.alias, `'${to}' not present in documents.yaml`, line, column);
   }
 };
 

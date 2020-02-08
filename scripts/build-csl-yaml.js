@@ -25,8 +25,8 @@ const parseDateAsCsl = date => {
 
 // Prepare data.
 fs.mkdirSync("build/public", { recursive: true });
-const rawAuthors = parseDataFileSync("data/authors.yml");
-const docs = parseDataFileSync("data/documents.yml");
+const rawAuthors = parseDataFileSync("data/authors.yaml");
+const docs = parseDataFileSync("data/documents.yaml");
 
 // Parse author file into CSL JSON.
 const authorMap = {};
@@ -85,12 +85,12 @@ for (const doc of docs) {
   references.push(cite);
 
   fs.writeFileSync(
-    `build/public/${id}.yml`,
+    `build/public/${id}.yaml`,
     yaml.safeStringify(cite, { flowLevel: 2 })
   );
 }
 
-console.log("build/public/N*.yml files have been written");
+console.log("build/public/N*.yaml files have been written");
 
 // Write the index file.
 references.sort(
@@ -98,7 +98,7 @@ references.sort(
 );
 const indexFile = { references: JSON.parse(JSON.stringify(references)) };
 fs.writeFileSync(
-  "build/public/index.yml",
+  "build/public/index.yaml",
   yaml.safeStringify(indexFile, { flowLevel: 4 })
 );
-console.log("build/public/index.yml has been written");
+console.log("build/public/index.yaml has been written");

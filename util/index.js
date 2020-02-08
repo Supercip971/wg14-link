@@ -28,7 +28,7 @@ module.exports.canonicalDocumentId = id => {
   }
 };
 
-// Parses the author format in data/authors.yml.
+// Parses the author format in data/authors.yaml.
 module.exports.parseAuthor = raw => {
   const segments = raw.split("||");
   assert(segments.length === 1 || segments.length === 2);
