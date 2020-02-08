@@ -1,6 +1,20 @@
 const assert = require("assert");
 const fs = require("fs-extra");
+const path = require("path");
 const yaml = require("@stoplight/yaml");
+
+module.exports.paths = Object.freeze({
+  root: path.join(__dirname, "../"),
+  alias: "data/alias.yaml",
+  authors: "data/authors.yaml",
+  documents: "data/documents.yaml",
+  routes: "build/routes.json",
+  aliasSchema: "schema/alias.json",
+  authorsSchema: "schema/authors.json",
+  documentsSchema: "schema/documents.json",
+  routesSchema: "schema/routes.json",
+  citationDirectory: "build/public",
+});
 
 //
 // Data file utilities.

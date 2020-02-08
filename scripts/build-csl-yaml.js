@@ -1,5 +1,4 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("fs-extra");
 const process = require("process");
 const yaml = require("@stoplight/yaml");
 
@@ -9,10 +8,11 @@ const {
   parseDataFileSync,
   parseAuthor,
   parseDate,
+  paths,
 } = require("../util");
 
 // Make things easy by always operating from the project root directory.
-process.chdir(path.join(__dirname, "../"));
+process.chdir(paths.root);
 
 // Convert a year number or YYYY-MM-DD string to CSL JSON date-parts.
 const parseDateAsCsl = date => {
@@ -24,9 +24,9 @@ const parseDateAsCsl = date => {
 };
 
 // Prepare data.
-fs.mkdirSync("build/public", { recursive: true });
-const rawAuthors = parseDataFileSync("data/authors.yaml");
-const docs = parseDataFileSync("data/documents.yaml");
+fs.mkdirpSync(paths.citationDirectory);
+const rawAuthors = parseDataFileSync(paths.authors);
+const docs = parseDataFileSync(paths.documents);
 
 // Parse author file into CSL JSON.
 const authorMap = {};
@@ -85,12 +85,12 @@ for (const doc of docs) {
   references.push(cite);
 
   fs.writeFileSync(
-    `build/public/${id}.yaml`,
+    `${paths.citationDirectory}/${id}.yaml`,
     yaml.safeStringify(cite, { flowLevel: 2 })
   );
 }
 
-console.log("build/public/N*.yaml files have been written");
+console.log("build-csl-yaml.js: wrote CSL-YAML citations");
 
 // Write the index file.
 references.sort(
@@ -98,7 +98,7 @@ references.sort(
 );
 const indexFile = { references: JSON.parse(JSON.stringify(references)) };
 fs.writeFileSync(
-  "build/public/index.yaml",
+  `${paths.citationDirectory}/index.yaml`,
   yaml.safeStringify(indexFile, { flowLevel: 4 })
 );
-console.log("build/public/index.yaml has been written");
+console.log("build-csl-yaml.js: wrote CSL-YAML bibliography");

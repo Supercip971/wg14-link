@@ -1,5 +1,5 @@
 const assert = require("assert");
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const process = require("process");
 
@@ -7,15 +7,16 @@ const {
   canonicalDocumentId,
   parseDataFileSync,
   parseAuthor,
+  paths,
 } = require("../util");
 
 // Make things easy by always operating from the project root directory.
-process.chdir(path.join(__dirname, "../"));
+process.chdir(paths.root);
 
-const docs = parseDataFileSync("data/documents.yaml");
-const alias = parseDataFileSync("data/alias.yaml");
+const docs = parseDataFileSync(paths.documents);
+const alias = parseDataFileSync(paths.alias);
 
-const rawAuthors = parseDataFileSync("data/authors.yaml");
+const rawAuthors = parseDataFileSync(paths.authors);
 const authorMap = {};
 
 for (let id of Object.keys(rawAuthors)) {
@@ -91,6 +92,6 @@ for (let [from, to] of Object.entries(alias)) {
 }
 
 // Write the routes file.
-fs.mkdirSync("build", { recursive: true });
-fs.writeFileSync("build/routes.json", JSON.stringify(routes));
-console.log("build/routes.json has been written");
+fs.mkdirpSync(path.dirname(paths.routes));
+fs.writeFileSync(paths.routes, JSON.stringify(routes));
+console.log("build-route-data.js: wrote route database");

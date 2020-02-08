@@ -6,15 +6,7 @@ const json = require("@stoplight/json");
 const process = require("process");
 const yaml = require("@stoplight/yaml");
 
-const { extractDocumentNumber, report } = require("../util");
-
-const paths = {
-  alias: "data/alias.yaml",
-  authors: "data/authors.yaml",
-  documents: "data/documents.yaml",
-  routes: "build/routes.json",
-  bibtexIndex: "build/public/index.bib",
-};
+const { extractDocumentNumber, report, paths } = require("../util");
 
 //
 // Utilities.
@@ -126,6 +118,7 @@ const validateYaml = (doc, schema, file) => {
   if (schema(doc.data)) return true;
 
   for (const err of schema.errors) {
+    if (!err.dataPath) console.log(err);
     const { line, column } = getYamlLocation(doc, err.dataPath);
     report(file, err.message, line, column);
   }
@@ -278,22 +271,19 @@ const main = async () => {
   // Running pandoc-citeproc for the 2500 documents is very slow. The index
   // is just a concatenation of the individual documents so we can just check
   // that instead.
-  await validateBibtexFile(paths.bibtexIndex);
+  await validateBibtexFile(`${paths.citationDirectory}/index.bib`);
 
   // Schema validation.
-  const alias = await parseAndValidateYamlFile(
-    paths.alias,
-    "schema/alias.json"
-  );
+  const alias = await parseAndValidateYamlFile(paths.alias, paths.aliasSchema);
   const authors = await parseAndValidateYamlFile(
     paths.authors,
-    "schema/authors.json"
+    paths.authorsSchema
   );
   const documents = await parseAndValidateYamlFile(
     paths.documents,
-    "schema/documents.json"
+    paths.documentsSchema
   );
-  await parseAndValidateJsonFile(paths.routes, "schema/routes.json");
+  await parseAndValidateJsonFile(paths.routes, paths.routesSchema);
 
   // Data validation.
   aliasShouldHaveValidRedirects(alias, documents);

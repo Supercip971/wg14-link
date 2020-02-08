@@ -1,5 +1,4 @@
 const fs = require("fs-extra");
-const path = require("path");
 const process = require("process");
 
 const {
@@ -8,15 +7,16 @@ const {
   parseDataFileSync,
   parseAuthor,
   parseDate,
+  paths,
 } = require("../util");
 
 // Make things easy by always operating from the project root directory.
-process.chdir(path.join(__dirname, "../"));
+process.chdir(paths.root);
 
 // Prepare data.
-fs.mkdirpSync("build/public");
-const rawAuthors = parseDataFileSync("data/authors.yaml");
-const docs = parseDataFileSync("data/documents.yaml");
+fs.mkdirpSync(paths.citationDirectory);
+const rawAuthors = parseDataFileSync(paths.authors);
+const docs = parseDataFileSync(paths.documents);
 
 // Escape string for LaTeX.
 const escape = str => str.replace(/"/g, `\\"`);
@@ -83,7 +83,7 @@ for (const doc of docs) {
   props.push(`publisher = "WG14"`);
 
   const cite = `@misc{${id},\n\t${props.join(",\n\t")}\n}`;
-  fs.writeFileSync(`build/public/${id}.bib`, cite);
+  fs.writeFileSync(`${paths.citationDirectory}/${id}.bib`, cite);
   references.push({ id, cite });
 }
 
@@ -94,5 +94,5 @@ references.sort(
   (a, b) => extractDocumentNumber(a.id) - extractDocumentNumber(b.id)
 );
 const indexFile = references.map(x => x.cite).join("\n\n");
-fs.writeFileSync("build/public/index.bib", indexFile);
+fs.writeFileSync(`${paths.citationDirectory}/index.bib`, indexFile);
 console.log("build-bibtex.js: wrote BibTeX bibliography");

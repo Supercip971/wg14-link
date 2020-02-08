@@ -1,15 +1,13 @@
 const createError = require("http-errors");
-const debug = require("debug")("wg14-link:app");
 const express = require("express");
 const morgan = require("morgan");
 const path = require("path");
 const process = require("process");
 
-const { canonicalDocumentId } = require("./util");
+const { canonicalDocumentId, parseDataFileSync, paths } = require("./util");
 
-// Load data.
-const routes = require("./build/routes.json");
-debug("Loaded data file build/routes.json");
+// Load routes database.
+const routes = parseDataFileSync(paths.routes);
 
 //
 // General app configuration.
