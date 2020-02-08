@@ -173,7 +173,8 @@ app.get("/:id([a-zA-Z0-9]+)", (req, res, next) => {
 
 // Metadata route.
 app.get("/:file(([Nn][0-9]+|index).(bib|ya?ml))", (req, res, next) => {
-  let [filename, ext] = req.params.file.split(".");
+  const filename = req.params["0"];
+  let ext = req.params["1"];
   if (ext === "yml") ext = "yaml";
 
   if (filename === "index") {
