@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: CI
 on:
   push:
     branches:
@@ -8,10 +8,18 @@ on:
     - master
 jobs:
   test:
-    name: Run Tests
+    name: Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - run: npm ci
     - run: npm run build -s
-    - run: npm run test -s
+    - run: npm run test -s -- --reporters=default --reporters=jest-github-actions-reporter
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: npm ci
+    - run: npm run lint -s
