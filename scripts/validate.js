@@ -262,6 +262,13 @@ const authorsShouldBeAccountedFor = (authors, documents) => {
       }
     }
   }
+
+  for (const author of Object.keys(authors.data)) {
+    if (!seen.has(author)) {
+      const { line, column } = getYamlLocation(authors, [author]);
+      report(paths.authors, `unused author '${author}'`, line, column);
+    }
+  }
 };
 
 //
