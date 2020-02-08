@@ -96,7 +96,11 @@ const makeRenderJsonError = contentType => (err, res) => {
   const result = {};
 
   if (err.expose || isDevelopment) {
-    result.error = `${err.message} - ${err.description}`;
+    if (err.description) {
+      result.error = `${err.message} - ${err.description}`;
+    } else {
+      result.error = err.message;
+    }
   } else if (status === 500) {
     result.error = "Internal server error";
   } else {
