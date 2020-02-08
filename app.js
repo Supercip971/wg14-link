@@ -7,8 +7,8 @@ const path = require("path");
 const process = require("process");
 
 // Load data.
-const redirects = require("./build/redirect.json");
-debug("Loaded data file build/redirect.json");
+const routes = require("./build/routes.json");
+debug("Loaded data file build/routes.json");
 
 //
 // General app configuration.
@@ -46,6 +46,23 @@ if (isProduction) {
 } else {
   app.use(morgan("dev"));
 }
+
+const embedBotList = [
+  "Twitterbot",
+  "Discordbot",
+  "Facebot",
+  "facebookexternalhit",
+  "Slackbot-LinkExpanding",
+  "TelegramBot",
+  "Discouse Forum Onebox",
+];
+
+const embedBotRegexp = new RegExp(`(${embedBotList.join("|")})`, "i");
+
+const isEmbedBot = ua => {
+  if (!ua) return false;
+  return embedBotRegexp.test(ua);
+};
 
 //
 // Error helpers.
@@ -93,10 +110,7 @@ const makeRenderJsonError = contentType => (err, res) => {
 };
 
 const renderHtmlError = makeRenderTemplateError("error-html", "text/html");
-const renderPlainTextError = makeRenderTemplateError(
-  "error-plain",
-  "text/plain"
-);
+const renderTextError = makeRenderTemplateError("error-plain", "text/plain");
 const renderJsonError = makeRenderJsonError("application/json");
 const renderYamlError = makeRenderJsonError("text/plain");
 
@@ -123,25 +137,34 @@ const missingDocumentLinkError = () =>
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "build", "public")));
 
-// Main redirect route.
+// Main route.
 app.get("/:id([a-zA-Z0-9]+)", (req, res, next) => {
-  let id = req.params.id.toLowerCase();
+  let id = req.params.id.toUpperCase();
 
   // Canonicalize the ID if it looks like a document number.
   if (id.match("^n[0-9]+$")) {
     id = canonicalDocumentId(id);
   }
 
-  const redirect = redirects[id];
+  const route = routes[id];
 
-  if (redirect === undefined) {
+  if (route === undefined) {
     next(documentNotFoundError());
-  } else if (redirect.status === "missing") {
+  } else if (route.status === "missing") {
     next(missingDocumentLinkError());
-  } else if (redirect.status === "unassigned") {
+  } else if (route.status === "unassigned") {
     next(unassignedIdError());
   } else {
-    res.redirect(303, redirect.mirror || redirect.url);
+    if (isEmbedBot(req.headers["user-agent"])) {
+      res.locals.id = route.id;
+      res.locals.idLower = route.id.toLowerCase();
+      res.locals.title = route.title;
+      res.locals.author = route.author;
+      res.locals.date = route.date;
+      res.render("bot-embed");
+    } else {
+      res.redirect(303, route.mirror || route.url);
+    }
   }
 });
 
@@ -152,11 +175,11 @@ app.get("/:file([Nn][0-9]+.(bib|ya?ml))", (req, res, next) => {
 
   if (ext === "yaml") ext = "yml";
 
-  const redirect = redirects[id];
+  const route = routes[id];
 
-  if (redirect === undefined) {
+  if (route === undefined) {
     next(documentNotFoundError());
-  } else if (redirect.status === "unassigned") {
+  } else if (route.status === "unassigned") {
     next(unassignedIdError());
   } else {
     res.sendFile(path.join(__dirname, "build", "public", `${id}.${ext}`));
@@ -183,7 +206,7 @@ app.use((err, req, res, next) => {
       renderJsonError(err, res);
       break;
     case "bib":
-      renderPlainTextError(err, res);
+      renderTextError(err, res);
       break;
     default:
       renderHtmlError(err, res);
