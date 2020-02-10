@@ -1,3 +1,13 @@
+- id: N2479
+  title: ISO/IEC 9899 working draft February 2020, diffmarks
+  author: Gustedt
+  date: 2020-02-09
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2479.pdf
+- id: N2478
+  title: ISO/IEC 9899 working draft February 2020
+  author: Gustedt
+  date: 2020-02-09
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2478.pdf
 - id: N2477
   title: Const functions
   author: Alepins
