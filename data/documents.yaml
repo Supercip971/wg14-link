@@ -1,3 +1,23 @@
+- id: N2483
+  title: Unclear type relationship between a format specifier and its argument (updates N2420)
+  author: Ballman
+  date: 2020-02-15
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2483.pdf
+- id: N2482
+  title: Minor attribute wording cleanups
+  author: Ballman
+  date: 2020-02-15
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2482.pdf
+- id: N2481
+  title: Querying attribute support (updates N2411)
+  author: Ballman
+  date: 2020-02-15
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2481.pdf
+- id: N2480
+  title: Allowing unnamed parameters in a function definition (updates N2381)
+  author: Ballman
+  date: 2020-02-15
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2480.pdf
 - id: N2479
   title: ISO/IEC 9899 working draft February 2020, diffmarks
   author: Gustedt
