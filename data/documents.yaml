@@ -1,3 +1,88 @@
+- id: N2502
+  title: February 2019 CFP teleconference minutes
+  author: Thomas
+  date: 2020-03-08
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2502.pdf
+- id: N2500
+  title: Restartable and Non-Restartable Functions for Efficient Character Conversions, r2
+  author: Meneide
+  date: 2020-03-08
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2500.pdf
+- id: N2499
+  title: Preprocessor embed - Binary Resource Inclusion, r2
+  author: Meneide
+  date: 2020-03-08
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2499.pdf
+- id: N2498
+  title: intmax_t, again
+  author: Uecker
+  date: 2020-03-07
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2498.pdf
+- id: N2497
+  title: Free Positioning of Labels Inside Compound Statements
+  author: Uecker
+  date: 2020-03-07
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2497.pdf
+- id: N2496
+  title: Compatibility of Pointers to Arrays with Qualifiers
+  author: Uecker
+  date: 2020-03-07
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2496.pdf
+- id: N2495
+  title: snprintf
+  author: Tydeman
+  date: 2020-03-07
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2495.htm
+- id: N2494
+  title: a common C/C++ core specification
+  author: Gustedt
+  date: 2020-03-07
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2494.pdf
+- id: N2493
+  title: What we think we reserve (updates N2409)
+  author: Ballman
+  date: 2020-02-23
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2493.pdf
+- id: N2491
+  title: C2X proposal - powr justification, wording
+  author: Thomas
+  date: 2020-02-23
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2491.pdf
+- id: N2490
+  title: C2X proposal - why no wide string strfrom functions - updates n2475
+  author: Thomas
+  date: 2020-02-23
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2490.pdf
+- id: N2489
+  title: C2X proposal - min-max functions
+  author: Thomas
+  date: 2020-02-23
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2489.pdf
+- id: N2488
+  title: C support for IEEE 754-2019
+  author: Thomas
+  date: 2020-02-23
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2488.pdf
+- id: N2487
+  title: short float
+  author: Krause
+  date: 2020-02-20
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2487.htm
+- id: N2486
+  title: register at file scope
+  author: Krause
+  date: 2020-02-20
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2486.htm
+- id: N2485
+  title: Add explicit_memset() as non-optional part of to C2X
+  author: Bachmann
+  date: 2020-02-17
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2485.htm
+- id: N2484
+  title: Make pointer type casting useful without negatively impacting performance
+  author: Bachmann
+  date: 2020-02-17
+  url: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2484.htm
 - id: N2483
   title: Unclear type relationship between a format specifier and its argument (updates N2420)
   author: Ballman
